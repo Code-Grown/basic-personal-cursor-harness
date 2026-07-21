@@ -18,6 +18,22 @@ Al publicar: actualizar `VERSION` + esta entrada + referencias en `.ai/constitut
 
 ---
 
+## [Unreleased]
+
+---
+
+## [2.1.1] — 2026-07-20
+
+### Changed
+- `project-template/` renombrado a `docs/getting-started/` (manual, no runtime)
+- Aclaración: el nombre del proyecto consumidor es irrelevante; el arnés no detecta esa carpeta
+
+### Added
+- `docs/getting-started/README.md` explicando que no se copia obligatoriamente
+- Evaluación de efectividad en `.ai/audit/architecture-score.md`
+
+---
+
 ## [2.1.0] — 2026-07-20
 
 Primera publicación ordenada del template multi-IA genérico (post-limpieza del legado de workspace ajeno).
@@ -27,7 +43,7 @@ Primera publicación ordenada del template multi-IA genérico (post-limpieza del
 - Bridges: Cursor (`.cursor/rules`), Copilot (`.github/`), Claude (`CLAUDE.md`), Gemini (`GEMINI.md`), Continue (`.continue/rules`)
 - Adapters documentados: Windsurf, Aider, Cline, JetBrains, Ollama, Antigravity
 - Skills: `confidentiality` (CORE), `trading-ml` (opcional, accesible a no expertos)
-- `NEXT_STEPS.md`, `project-template/INSTALL.md`, `project-template/FIRST_SESSION.md`
+- `NEXT_STEPS.md`, guías de instalación / primera sesión
 - README con guía de implementación paso a paso
 - Versionado semántico: `VERSION` + este `CHANGELOG`
 
@@ -38,13 +54,7 @@ Primera publicación ordenada del template multi-IA genérico (post-limpieza del
 
 ### Removed
 - Contenido de dominio PISEE/Interop y datos sensibles de memoria legacy
-- Skills de stacks ajenos al template (Go/Terraform/Nuxt/etc. del workspace anterior)
+- Skills de stacks ajenos al template
 
 ### Security
 - Política de confidencialidad CORE; redaction en memory; `.gitignore` para `.env` / secrets / cache efímero
-
----
-
-## [Unreleased]
-
-Cambios acumulados para la próxima versión (vacío al publicar 2.1.0).

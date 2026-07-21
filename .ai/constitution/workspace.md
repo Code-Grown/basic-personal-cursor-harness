@@ -5,7 +5,7 @@ priority: 900
 ---
 
 # AI Harness Constitution
-Versión 2.1.0 · Template multi-IA genérico · Token-first  
+Versión 2.1.1 · Template multi-IA genérico · Token-first  
 (SemVer canónico: `/VERSION`)
 
 ## Principio Maestro (orden)

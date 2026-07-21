@@ -1,10 +1,13 @@
 # Instalar el arnés en un proyecto destino
 
+Tu proyecto (`TARGET`) puede tener **cualquier nombre**.  
+Esta carpeta `docs/getting-started/` es solo el manual: **no** hace falta copiarla al destino (opcional).
+
 ## Opción A — rsync (recomendada)
 
 ```bash
 HARNESS=/ruta/a/basic-personal-cursor-harness
-TARGET=/ruta/a/tu-proyecto
+TARGET=/ruta/a/tu-proyecto   # cualquier nombre
 
 mkdir -p "$TARGET/.github/prompts" "$TARGET/docs"
 
@@ -14,6 +17,8 @@ rsync -a "$HARNESS/.continue/" "$TARGET/.continue/"
 cp "$HARNESS/AGENTS.md" "$HARNESS/CLAUDE.md" "$HARNESS/GEMINI.md" "$TARGET/"
 cp "$HARNESS/.github/copilot-instructions.md" "$TARGET/.github/"
 cp "$HARNESS/.github/prompts/"*.md "$TARGET/.github/prompts/" 2>/dev/null || true
+
+# Opcional: tutorial dentro del proyecto
 cp "$HARNESS/README.md" "$TARGET/docs/HARNESS.md"
 cp "$HARNESS/NEXT_STEPS.md" "$TARGET/docs/HARNESS_NEXT_STEPS.md"
 ```
@@ -22,7 +27,7 @@ cp "$HARNESS/NEXT_STEPS.md" "$TARGET/docs/HARNESS_NEXT_STEPS.md"
 
 - `.ai/constitution/`
 - `.ai/protocols/operating-mode.ultra.md`
-- `.ai/harness/session-gate.md` + `update-trigger.md`
+- `.ai/harness/session-gate.md` + `discovery.md` + `update-trigger.md`
 - `.ai/skills/confidentiality.md`
 - `.ai/memory/` (plantillas)
 - `AGENTS.md`
@@ -31,5 +36,5 @@ cp "$HARNESS/NEXT_STEPS.md" "$TARGET/docs/HARNESS_NEXT_STEPS.md"
 
 1. Edita `.ai/memory/workspace.md` (mapa real, sin secretos).
 2. Primer mensaje: ver `FIRST_SESSION.md`.
-3. Añade skills de dominio en `.ai/skills/` (ver README ahí).
+3. Añade skills de dominio en `.ai/skills/` si hace falta.
 4. No copies `memory/` sensible a repos públicos.

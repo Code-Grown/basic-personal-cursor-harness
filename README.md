@@ -1,6 +1,6 @@
 # AI Harness Template — multi-IA, genérico, token-first
 
-**Versión:** `2.1.0` · ver [`VERSION`](VERSION) · historial [`CHANGELOG.md`](CHANGELOG.md) · cómo publicar [`VERSIONING.md`](VERSIONING.md)
+**Versión:** `2.1.1` · ver [`VERSION`](VERSION) · historial [`CHANGELOG.md`](CHANGELOG.md) · cómo publicar [`VERSIONING.md`](VERSIONING.md)
 
 Arnés portable para Cursor, Copilot, Claude, Gemini, Windsurf, Continue, Aider, Cline, JetBrains AI, Ollama y CLIs genéricos.
 
@@ -35,7 +35,8 @@ cp "$HARNESS/README.md" "$TARGET/docs/HARNESS.md"
 cp "$HARNESS/NEXT_STEPS.md" "$TARGET/docs/HARNESS_NEXT_STEPS.md"
 ```
 
-Detalle alternativo (copia mínima para Ollama): `project-template/INSTALL.md`.
+Detalle / copia mínima Ollama: [`docs/getting-started/INSTALL.md`](docs/getting-started/INSTALL.md).  
+`docs/getting-started/` es **solo manual** — no la detecta el arnés; tu proyecto puede llamarse como quieras.
 
 ### Paso 2 — Abrir el proyecto en tu IA
 
@@ -89,7 +90,7 @@ Formato session-gate + opciones A/B. Basa el plan en archivos que leas del repo.
 Aprobado A. Implementa. Luego 1 pregunta de comprensión.
 ```
 
-Guion completo: `project-template/FIRST_SESSION.md`.
+Guion completo: [`docs/getting-started/FIRST_SESSION.md`](docs/getting-started/FIRST_SESSION.md).
 
 ### Paso 5 — (Opcional) Activar trading / ML
 
@@ -233,15 +234,9 @@ Si un secreto entró al historial → rota credenciales.
 ```
 VERSION CHANGELOG.md VERSIONING.md
 AGENTS.md CLAUDE.md GEMINI.md README.md NEXT_STEPS.md
-.ai/
-  constitution/     reglas maestras
-  protocols/        ← Absoluto++ / Arquitecto / Núcleo (full|compact|ultra)
-  harness/          session-gate, discovery, checks, triggers
-  skills/           confidentiality, trading-ml (opcional)
-  memory/           lo rellena quien implementa
-  adapters/         cómo cablear cada IA
-.cursor/rules/      Cursor
-.github/            Copilot
-.continue/rules/    Continue.dev
-project-template/   INSTALL + FIRST_SESSION
+.ai/                  núcleo (fuente de verdad / runtime del arnés)
+.cursor/ .github/ .continue/   bridges
+docs/getting-started/          manual (NO runtime; nombre del proyecto consumidor irrelevante)
 ```
+
+Efectividad estimada: ver [`.ai/audit/architecture-score.md`](.ai/audit/architecture-score.md).

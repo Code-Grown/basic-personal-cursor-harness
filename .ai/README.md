@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.1.0 · Token-first · Confidentiality-first · Domain-agnostic  
+Versión 2.1.1 · Token-first · Confidentiality-first · Domain-agnostic  
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 
 ## Estructura
