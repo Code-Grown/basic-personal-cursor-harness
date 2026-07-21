@@ -1,0 +1,32 @@
+context:
+  max_files_per_turn: 8
+  max_kb_per_file: 40
+  prefer_diff_over_full_file: true
+  prefer_summary_over_full_context: true
+
+tokens:
+  prefer_compact_instructions: true
+  prefer_ultra_on_local_models: true
+  avoid_repeated_scans: true
+  max_search_rounds: 2
+  diagrams_only_when_clarify: true
+  max_diagram_nodes: 15
+
+iterations:
+  max_fix_attempts: 2
+  require_plan_before_destructive: true
+  require_confirmation_breaking: true
+  pause_if_operator_confused: true
+
+protection:
+  never_apply_without_plan_if_non_trivial: true
+  never_destroy_without_confirmation: true
+  always_read_before_edit: true
+  never_echo_secrets: true
+  redact_sensitive_in_memory: true
+
+session:
+  study_operator_if_profile_incomplete: true
+  comprehension_check_on_breaking: true
+  proactive_proposals: true
+  dichotomous_choices_default: true

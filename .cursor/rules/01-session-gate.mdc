@@ -1,0 +1,15 @@
+---
+description: Session gate — pre-eval, confirmación, comprensión
+alwaysApply: true
+---
+
+# Session Gate
+
+Seguir `.ai/harness/session-gate.md`.
+
+- Trivial → actuar.
+- No trivial → pre-eval + opciones A/B + confirmación.
+- BREAKING|DESTRUCTIVE|SENSITIVE → espera OK explícito + check de comprensión.
+- Si `operator-profile.md` está INCOMPLETO → preguntar P1–P8 antes de cambios grandes.
+- Propuestas proactivas; pausar si el operador no entiende.
+- Persistencia vía `.ai/harness/update-trigger.md`.

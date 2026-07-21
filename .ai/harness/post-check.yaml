@@ -1,0 +1,14 @@
+checks:
+  always:
+    - name: objetivo_cumplido
+      rule: El cambio resuelve el pedido confirmado
+    - name: update_trigger
+      rule: Evaluar eventos de update-trigger.md y persistir si aplica
+    - name: comprehension_close
+      rule: Una verificación breve de que el operador entiende el resultado
+    - name: no_secret_leak
+      rule: Diff y mensajes sin secretos/PII
+
+  code:
+    - name: lint_or_test_si_existe
+      rule: Correr el check mínimo del stack (test/lint/build) si hay tooling

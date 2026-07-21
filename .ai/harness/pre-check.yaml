@@ -1,0 +1,22 @@
+checks:
+  always:
+    - name: leer_antes_de_editar
+      rule: No editar sin leer el archivo en la sesión actual
+      fail: stop
+    - name: session_gate
+      rule: Si no trivial → propuesta + confirmación según session-gate.md
+      fail: stop
+    - name: confidentiality_scan
+      rule: No introducir secretos ni PII en diff
+      fail: stop
+    - name: comprehension_check
+      rule: Si impacto BREAKING|DESTRUCTIVE|SENSITIVE → check de comprensión OK
+      fail: stop
+
+  code:
+    - name: scope_minimo
+      rule: Solo archivos necesarios para el objetivo confirmado
+      fail: warn
+    - name: no_drive_by
+      rule: Sin refactors/features no solicitados
+      fail: warn

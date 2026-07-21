@@ -1,0 +1,10 @@
+.ai/cache/*
+!.ai/cache/.gitkeep
+.ai/generated/*
+!.ai/generated/.gitkeep
+.env
+.env.*
+!.env.example
+**/secrets/
+*.pem
+*.key

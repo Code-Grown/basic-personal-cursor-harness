@@ -1,0 +1,16 @@
+# Rollback — genérico (cada proyecto puede extender)
+general:
+  - git revert <commit>
+  - git checkout -- <paths>   # solo si no commiteado y operador confirma
+  - restaurar backup / snapshot si existe
+
+code:
+  - revert PR / commit
+  - redeploy artefacto anterior
+
+data:
+  - migración down / restore backup (solo con OK explícito)
+  - nunca borrar datos de prod sin plan escrito
+
+policy:
+  - Toda acción DESTRUCTIVE debe citar este archivo o un plan equivalente en la propuesta

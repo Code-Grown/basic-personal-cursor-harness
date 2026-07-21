@@ -1,0 +1,5 @@
+# cache/
+# Resúmenes compilados y índices — reemplazable en cualquier momento.
+# summaries/: resúmenes de archivos grandes (>50KB) para reducir tokens
+# indexes/: índices de búsqueda por entidad/repo
+# retrieval/: contexto compilado por tipo de tarea

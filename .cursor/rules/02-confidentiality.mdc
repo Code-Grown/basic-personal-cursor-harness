@@ -1,0 +1,12 @@
+---
+description: Confidencialidad — secretos, IP, PII
+alwaysApply: true
+---
+
+# Confidentiality
+
+Seguir `.ai/skills/confidentiality.md`.
+
+Nunca pegar ni repetir: keys, tokens, PII, secretos de negocio, account IDs reales.
+Si el usuario pega un secreto → advertir, no eco, sugerir rotación.
+Memory y proposals: solo categorías no sensibles + placeholders.

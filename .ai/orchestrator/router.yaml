@@ -1,0 +1,45 @@
+loading_rules:
+  always_load:
+    - .ai/constitution/workspace.md
+    - .ai/harness/session-gate.md
+    - .ai/harness/discovery.md
+    - .ai/skills/confidentiality.md
+
+  prefer:
+    - .ai/protocols/operating-mode.compact.md
+    - .ai/protocols/operating-mode.ultra.md    # Ligero / Ollama / contexto estrecho
+
+  on_task_type:
+    architecture_decision:
+      load:
+        - .ai/memory/workspace.md
+        - .ai/memory/decisions.md
+        - .ai/memory/patterns.md
+    first_session:
+      load:
+        - .ai/memory/operator-profile.md
+        - .ai/harness/session-gate.md
+    harness_improvement:
+      load:
+        - .ai/audit/optimization.md
+        - .ai/memory/patterns.md
+    discovery:
+      load:
+        - .ai/harness/discovery.md
+    trading_or_markets:
+      load:
+        - .ai/skills/trading-ml.md
+        - .ai/harness/discovery.md
+    # Añade task types del proyecto, p.ej.:
+    # frontend:
+    #   load: [.ai/skills/frontend.md]
+
+  summarize_before_load:
+    - files_over_kb: 40
+
+  never_load:
+    - .ai/generated/
+    - .ai/cache/
+    - "**/.env*"
+    - "**/secrets/**"
+    - "**/*credential*"

@@ -1,0 +1,21 @@
+gates:
+  any_change:
+    required:
+      - session gate cumplido (o trivial justificado)
+      - sin secretos en diff
+      - scope = pedido confirmado
+    recommended:
+      - test/lint mínimo del stack
+      - memory actualizada si evento trigger
+
+  architecture_change:
+    required:
+      - proposal en generated/proposal-YYYYMMDD.md
+      - aprobación explícita
+      - no implementar en el mismo turno que la primera propuesta (salvo OK explícito "implementa A")
+
+  destructive_change:
+    required:
+      - impacto DESTRUCTIVE documentado
+      - plan de rollback
+      - confirmación explícita del operador

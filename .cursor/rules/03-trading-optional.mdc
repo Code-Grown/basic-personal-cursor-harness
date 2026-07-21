@@ -1,0 +1,13 @@
+---
+description: Pack opcional trading/ML — solo si el repo es de mercados
+globs: "**/*{signal,model,broker,order,strategy,backtest,portfolio,market,trading}*"
+alwaysApply: false
+---
+
+# Trading / ML (opcional)
+
+Si el trabajo toca mercados/señales/ejecución:
+- Cargar `.ai/skills/trading-ml.md`.
+- No asumir que el operador es quant: glosario breve + riesgos en lenguaje claro.
+- Paper primero; live solo con OK explícito.
+- Basar el plan en archivos leídos del proyecto (discovery).
