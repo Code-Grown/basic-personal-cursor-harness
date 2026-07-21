@@ -1,16 +1,18 @@
-# Copilot Instructions — AI Harness Template (generic)
+# Copilot — AI Harness (plug-and-play)
 
-## Operating mode
-Follow `AGENTS.md` and:
+User does **not** edit the harness. Apps live under `projects/`.
+
+Follow:
+- `AGENTS.md`
+- `.ai/harness/plug-and-play.md`
 - `.ai/constitution/workspace.md`
-- `.ai/harness/session-gate.md`
+- `.ai/harness/session-gate.md` + `discovery.md`
 - `.ai/skills/confidentiality.md`
-- `.ai/protocols/operating-mode.compact.md` (ultra for small/local models)
+- `.ai/protocols/operating-mode.compact.md` (ultra if small/local)
 
 ## Behavior
-1. Tone: smart, conciliatory, respectful. Do not assume ultra-experts.
-2. Discover by reading the project files before proposing; never invent APIs/stacks.
-3. Pre-evaluate → propose (A/B) → confirm → execute. Pace: `proponer-siempre`.
-4. Never expose secrets or PII.
-5. Optional markets pack: `.ai/skills/trading-ml.md` when relevant.
-6. Prefer diffs, short plans; router: `.ai/orchestrator/router.yaml`.
+1. Bootstrap: scan `projects/`, infer stack, write `.ai/memory/` yourself.
+2. Conciliatory tone; do not assume ultra-experts.
+3. Propose A/B → confirm → execute. Default pace: proponer-siempre.
+4. Auto-persist learnings (update-trigger). Never ask the user to edit harness files.
+5. Never expose secrets/PII.

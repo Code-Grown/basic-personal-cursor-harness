@@ -1,15 +1,18 @@
-# Getting started — manual de instalación
+# Getting started
 
-Esta carpeta es **solo documentación** del repo del arnés.
+## Usuarios finales (recomendado)
+No hace falta esta carpeta. Flujo:
 
-- **No** forma parte del runtime.
-- **No** la detecta Cursor/Copilot/Claude.
-- **No** hace falta copiarla ni renombrarla en tu proyecto.
-- Tu proyecto puede llamarse como quieras.
+1. Abrir el repo del arnés  
+2. Poner apps en `projects/`  
+3. Chatear  
 
-Lo que sí activa el arnés es lo que pegas en la **raíz** de tu repo: `.ai/`, bridges, `AGENTS.md`, etc. (ver `INSTALL.md`).
+Ver [`../../README.md`](../../README.md) y [`../../projects/README.md`](../../projects/README.md).
 
+## Avanzado
 | Archivo | Para qué |
 |---|---|
-| [INSTALL.md](./INSTALL.md) | Cómo copiar el arnés |
-| [FIRST_SESSION.md](./FIRST_SESSION.md) | Primeros mensajes al agente |
+| [INSTALL.md](./INSTALL.md) | Copiar el arnés a otro repo (no plug-and-play) |
+| [FIRST_SESSION.md](./FIRST_SESSION.md) | Guion de primer chat |
+
+Esta carpeta es **manual**, no runtime.

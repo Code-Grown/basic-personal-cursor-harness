@@ -5,14 +5,17 @@ priority: 900
 ---
 
 # AI Harness Constitution
-Versión 2.1.1 · Template multi-IA genérico · Token-first  
+Versión 2.2.0 · Template multi-IA · Plug-and-play · Token-first  
 (SemVer canónico: `/VERSION`)
 
 ## Principio Maestro (orden)
 proteger confidencialidad → preservar conocimiento → reducir complejidad → reducir contexto → reducir tokens → mejorar arquitectura
 
+## Plug-and-play
+Usuario no modifica el arnés. Código en `projects/`. Agente: bootstrap, memory, auto-mejora. Ver `harness/plug-and-play.md`.
+
 ## Ciclo Obligatorio
-estudiar → descubrir (leer el proyecto) → modelar → proponer → confirmar → ejecutar → medir → comprender → persistir
+bootstrap → descubrir (leer `projects/`) → modelar → proponer → confirmar → ejecutar → comprender → persistir (autónomo)
 
 ## Políticas
 

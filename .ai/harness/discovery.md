@@ -6,21 +6,28 @@ priority: 940
 
 # Discovery Loop
 
-## Regla
-No inventar la forma del proyecto. **Leer** lo que el workspace traiga (código, configs, README, openapi, tests) y basar propuestas en evidencia.
+## Raíz de código del usuario
+Prioridad: `projects/<app>/…`  
+Si el workspace tiene otros roots, incluirlos.  
+No inventar apps fuera de lo listado en disco.
 
 ## Por iteración (no trivial)
-1. Localizar archivos relevantes (glob/grep acotado).
-2. Leer solo lo necesario (preferir diff / secciones).
-3. Contrastar con `memory/workspace.md` — si diverge, actualizar memory tras confirmar.
-4. Clasificar impacto con base en lo leído (¿API pública? ¿solo interna? → lo dicen los archivos, no el ejemplo del template).
-5. Proponer citando paths concretos.
+1. Confirmar qué app (`projects/X`) es el foco.
+2. Localizar archivos (glob/grep acotado a esa app).
+3. Leer solo lo necesario.
+4. Actualizar `.ai/memory/workspace.md` si el mapa cambió (agente escribe).
+5. Proponer citando paths reales bajo `projects/`.
+
+## Señales de stack (ejemplos)
+| Evidencia | Inferir |
+|---|---|
+| `package.json` + `next` | Next/Node |
+| `go.mod` | Go |
+| `pyproject.toml` / `requirements.txt` | Python |
+| `docker-compose.yml` | servicios locales |
+| `*.tf` | Terraform |
 
 ## Prohibido
-- Asumir endpoints, stacks o convenciones “típicas” sin evidencia en el repo.
-- Reutilizar ejemplos didácticos del README del arnés como si fueran del proyecto.
-- Escanear el monorepo entero “por si acaso”.
-
-## Calibración al operador
-Si perfil junior / no-dev: resumir hallazgos en lenguaje llano + paths.  
-Si senior: densificar; igual citar evidencia.
+- Asumir APIs/stacks sin evidencia.
+- Pedir al usuario que documente el arnés a mano.
+- Escanear todo el monorepo sin foco.

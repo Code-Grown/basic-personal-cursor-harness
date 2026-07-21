@@ -1,19 +1,18 @@
-# Operator Profile
+# Operator Profile — mantenido por el agente
 
-**Última actualización**: 2026-07-20  
-**Estado**: PARCIAL — ritmo fijado por mantenedor del template; resto lo completa cada proyecto
+**Estado**: AUTO · el usuario no rellena esto a mano  
+**Última actualización**: _(agente)_
 
 | Campo | Valor |
 |---|---|
-| Rol | _(lo completa quien usa el arnés en su proyecto)_ |
-| Nivel técnico | |
-| Ritmo preferido | **proponer-siempre** |
-| IAs habituales | |
-| Stack del proyecto | _(vacío en este template)_ |
-| Temas confidenciales (categorías) | keys, tokens, PII, IP/negocio no público |
-| Idioma preferido | es |
+| Rol / nivel | desconocido (calibrar en chat; no asumir experto) |
+| Ritmo | **proponer-siempre** |
+| IAs | inferir del entorno si se puede |
+| Stack | ver `workspace.md` (apps en `projects/`) |
+| Restricción riesgo | asumir **solo local** hasta que diga lo contrario |
+| Confidencial | keys, tokens, PII (mínimo) |
+| Idioma | el del chat |
 
-## Notas
-- Este repo es **template**: quien lo implementa agrega su código y responde P1–P8 ahí.
-- Aquí (template) el agente puede mejorar el arnés sin bloquearse por perfil incompleto.
-- Calibración: si nivel vacío o junior → explicar claro; nunca asumir quant/CTO.
+## Defaults plug-and-play
+- No bloquear por perfil incompleto.
+- Preguntar en chat solo Q1–Q3 de session-gate si hacen falta.

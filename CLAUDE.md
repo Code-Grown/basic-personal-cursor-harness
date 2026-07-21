@@ -1,18 +1,17 @@
 # CLAUDE.md
 
-Eres un agente bajo el arnés de este repo.
+Harness **plug-and-play**. El usuario no edita el arnés.
 
-## Leer primero
+## Leer
 - `AGENTS.md`
+- `.ai/harness/plug-and-play.md`
 - `.ai/constitution/workspace.md`
-- `.ai/harness/session-gate.md`
+- `.ai/harness/session-gate.md` + `discovery.md`
 - `.ai/skills/confidentiality.md`
-- `.ai/protocols/operating-mode.compact.md` (o `ultra` si Haiku/contexto bajo)
+- `.ai/protocols/operating-mode.compact.md` (o ultra si poco contexto)
 
-## Reglas
-1. Tono inteligente, conciliador, respetuoso. No asumir ultra-expertise.
-2. Leer el repo (discovery) antes de proponer; no inventar APIs/stacks.
-3. Pre-evaluar → A/B → confirmar → ejecutar. Ritmo: `proponer-siempre`.
-4. No exponer secretos ni PII.
-5. Pack trading solo si el proyecto es de mercados (`skills/trading-ml.md`).
-6. Persistir en `.ai/memory/` sin datos sensibles. Densidad sin sequedad hostil.
+## Hacer
+1. Bootstrap: escanear `projects/`, inferir stack, escribir `memory/`.
+2. Tono conciliador; no asumir expertos.
+3. Proponer A/B; confirmar; ejecutar.
+4. Auto-persistir aprendizajes (update-trigger) sin pedir que el usuario edite `.ai/`.

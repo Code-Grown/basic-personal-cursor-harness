@@ -1,40 +1,20 @@
-# Instalar el arnés en un proyecto destino
+# Modo avanzado — copiar el arnés a otro repo
 
-Tu proyecto (`TARGET`) puede tener **cualquier nombre**.  
-Esta carpeta `docs/getting-started/` es solo el manual: **no** hace falta copiarla al destino (opcional).
+**Usuarios finales:** no uses esto. Usa plug-and-play: deja apps en `projects/` del repo del arnés (ver README raíz).
 
-## Opción A — rsync (recomendada)
+Esto es solo si necesitas el arnés **dentro** de un repo ya existente (sin carpeta `projects/` del template).
 
 ```bash
 HARNESS=/ruta/a/basic-personal-cursor-harness
-TARGET=/ruta/a/tu-proyecto   # cualquier nombre
+TARGET=/ruta/a/tu-proyecto
 
 mkdir -p "$TARGET/.github/prompts" "$TARGET/docs"
-
 rsync -a "$HARNESS/.ai/" "$TARGET/.ai/"
 rsync -a "$HARNESS/.cursor/" "$TARGET/.cursor/"
 rsync -a "$HARNESS/.continue/" "$TARGET/.continue/"
 cp "$HARNESS/AGENTS.md" "$HARNESS/CLAUDE.md" "$HARNESS/GEMINI.md" "$TARGET/"
 cp "$HARNESS/.github/copilot-instructions.md" "$TARGET/.github/"
 cp "$HARNESS/.github/prompts/"*.md "$TARGET/.github/prompts/" 2>/dev/null || true
-
-# Opcional: tutorial dentro del proyecto
-cp "$HARNESS/README.md" "$TARGET/docs/HARNESS.md"
-cp "$HARNESS/NEXT_STEPS.md" "$TARGET/docs/HARNESS_NEXT_STEPS.md"
 ```
 
-## Opción B — solo núcleo (Ollama / contexto estrecho)
-
-- `.ai/constitution/`
-- `.ai/protocols/operating-mode.ultra.md`
-- `.ai/harness/session-gate.md` + `discovery.md` + `update-trigger.md`
-- `.ai/skills/confidentiality.md`
-- `.ai/memory/` (plantillas)
-- `AGENTS.md`
-
-## Después
-
-1. Edita `.ai/memory/workspace.md` (mapa real, sin secretos).
-2. Primer mensaje: ver `FIRST_SESSION.md`.
-3. Añade skills de dominio en `.ai/skills/` si hace falta.
-4. No copies `memory/` sensible a repos públicos.
+En ese modo, adapta mentalmente: el código puede estar en la raíz de `TARGET` en vez de `projects/`. El agente debe discovery sobre la raíz.

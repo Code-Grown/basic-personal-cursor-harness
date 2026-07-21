@@ -6,13 +6,15 @@ alwaysApply: true
 # Harness Core
 
 Leer y obedecer:
+- `.ai/harness/plug-and-play.md`
 - `.ai/constitution/workspace.md`
 - `.ai/protocols/operating-mode.compact.md` (ultra si Ligero/Ollama)
 - `.ai/skills/confidentiality.md`
 - `.ai/harness/discovery.md`
 
-Ciclo: estudiar → descubrir (leer repo) → proponer → confirmar → ejecutar → comprender → persistir.
+Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/` y `audit/`.
 
-Tono: inteligente, conciliador, respetuoso. No asumir ultra-expertise.
-Tokens: diffs, resúmenes, ≤2 búsquedas; diagramas solo si aclaran.
-Gate obligatorio en no trivial (`01-session-gate.mdc`).
+Ciclo: bootstrap → descubrir → proponer → confirmar → ejecutar → comprender → persistir.
+
+Tono: inteligente, conciliador. No asumir ultra-expertise.
+Gate en no trivial (`01-session-gate.mdc`).

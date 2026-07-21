@@ -8,8 +8,7 @@ alwaysApply: true
 Seguir `.ai/harness/session-gate.md`.
 
 - Trivial → actuar.
-- No trivial → pre-eval + opciones A/B + confirmación.
-- BREAKING|DESTRUCTIVE|SENSITIVE → espera OK explícito + check de comprensión.
-- Si `operator-profile.md` está INCOMPLETO → preguntar P1–P8 antes de cambios grandes.
-- Propuestas proactivas; pausar si el operador no entiende.
-- Persistencia vía `.ai/harness/update-trigger.md`.
+- No trivial → pre-eval + A/B + confirmación.
+- BREAKING|DESTRUCTIVE|SENSITIVE → OK explícito + check comprensión.
+- Perfil: inferir + defaults; máx 2–3 preguntas (no P1–P8 largas).
+- Persistencia autónoma vía update-trigger (usuario no edita memory).

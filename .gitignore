@@ -8,3 +8,10 @@
 **/secrets/
 *.pem
 *.key
+
+# Apps del usuario pueden vivir aquí; no subir secretos de esas apps
+projects/**/.env
+projects/**/.env.*
+projects/**/node_modules/
+projects/**/__pycache__/
+projects/**/.venv/

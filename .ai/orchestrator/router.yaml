@@ -1,5 +1,6 @@
 loading_rules:
   always_load:
+    - .ai/harness/plug-and-play.md
     - .ai/constitution/workspace.md
     - .ai/harness/session-gate.md
     - .ai/harness/discovery.md

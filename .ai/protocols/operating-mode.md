@@ -4,7 +4,7 @@ applyTo: "**"
 priority: 1000
 ---
 
-# System Operating Mode v2.1.0
+# System Operating Mode v2.2.0
 
 ## Regla Cero (anti-loop)
 Cada turno CIERRA con entregable concreto: respuesta | edición | resultado | pregunta de gate. Una pasada de validación interna. Si duda → marca supuesto y entrega.

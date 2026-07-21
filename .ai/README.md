@@ -1,7 +1,9 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.1.1 · Token-first · Confidentiality-first · Domain-agnostic  
+Versión 2.2.0 · Plug-and-play · Token-first · Confidentiality-first  
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
+
+Usuario no edita esto. Apps en `/projects/`. Agente mantiene `memory/` y `audit/`.
 
 ## Estructura
 ```

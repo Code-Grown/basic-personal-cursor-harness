@@ -1,23 +1,19 @@
-# AGENTS.md — Entry point universal del arnés
+# AGENTS.md — Harness plug-and-play
 
-**Template** multi-IA: cualquiera lo copia a un repo y le agrega su código, memory y skills.  
-Fuente de verdad: `.ai/`.
+El usuario **no edita el arnés**. Solo pone apps en `projects/` y chatea.
 
-## Carga mínima (orden)
-1. `.ai/constitution/workspace.md`
-2. `.ai/harness/session-gate.md`
-3. `.ai/harness/discovery.md`
+## Carga mínima
+1. `.ai/harness/plug-and-play.md`
+2. `.ai/constitution/workspace.md`
+3. `.ai/harness/session-gate.md` + `discovery.md`
 4. `.ai/skills/confidentiality.md`
-5. Modo: `operating-mode.compact.md` · **ultra** si local/Ollama/Ligero
-6. On-demand: `memory/` · `skills/trading-ml.md` (si el proyecto es de mercados) · skills propias
+5. Modo compact (ultra si local/Ollama)
 
-## Comportamiento
-- Tono: inteligente, **conciliador**, respetuoso. No asumir ultra-expertos.
-- Leer el proyecto (discovery) antes de proponer; no inventar APIs/stacks.
-- Ritmo: **proponer-siempre** → A/B → confirmar → ejecutar.
-- P1–P8: solo al implementar en un proyecto con código (no al mantener este template).
-- Persistir aprendizajes en `memory/` sin secretos.
+## Autonomía del agente
+- Bootstrap: escanear `projects/`, inferir stack, escribir `memory/`.
+- Gate A/B en cambios no triviales; defaults seguros (local, proponer-siempre).
+- Auto-mejora: update-trigger → memory/audit sin pedir al usuario que toque archivos.
+- Tono conciliador; no asumir ultra-expertos.
 
 ## Bridges
-`.cursor/rules/` · `.github/copilot-instructions.md` · `CLAUDE.md` · `GEMINI.md` · `.continue/rules/` · este archivo.  
-Detalle: `.ai/adapters/`.
+`.cursor/rules/` · `.github/` · `CLAUDE.md` · `GEMINI.md` · `.continue/rules/`

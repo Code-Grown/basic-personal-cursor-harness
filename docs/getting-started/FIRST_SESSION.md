@@ -1,32 +1,22 @@
-# Primera sesión en un proyecto que acaba de instalar el arnés
+# Primera sesión (plug-and-play)
+
+No edites el arnés. Solo habla.
 
 ## Mensaje 1
 ```
-Arnés activo. Objetivo de sesión: <una frase>.
-Perfil incompleto: hazme P1–P8 en un solo bloque.
-No edites código hasta que confirme una opción A/B.
+Hola — mi app está en projects/<nombre>.
+Quiero: <objetivo en una frase>.
+Arranca el bootstrap del arnés y propón antes de editar.
 ```
 
-## Mensaje 2 — cómo responder (ejemplos, no copies tal cual)
-```
-P1: backend mid
-P2: estabilizar auth
-P3: NestJS + Postgres
-P4: solo staging esta semana
-P5: keys, PII usuarios, pricing
-P6: proponer-siempre
-P7: Cursor + Ollama
-P8: no
-```
+## Lo que debe pasar (sin que tú toques archivos)
+1. Lista `projects/`, detecta stack.
+2. Actualiza memory solo.
+3. Te hace máximo 2–3 preguntas si hace falta (riesgo local/prod, etc.).
+4. Te da opciones A/B.
+5. Tras tu OK, implementa y guarda aprendizajes.
 
-No hace falta prosa. Listas cortas bastan.
-
-## Mensaje 3
+## Mensaje 2 (cuando apruebes)
 ```
-Propón (no implementes) el plan para <tarea>. Formato session-gate + A/B.
-```
-
-## Mensaje 4
-```
-Aprobado A. Implementa. Luego 1 pregunta de comprensión.
+Aprobado A. Adelante.
 ```

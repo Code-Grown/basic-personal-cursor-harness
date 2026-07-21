@@ -4,7 +4,7 @@ applyTo: "**"
 priority: 1000
 ---
 
-# Operating Mode v2.1.0 (compact)
+# Operating Mode v2.2.0 (compact)
 
 ## Regla Cero
 Entregable concreto cada turno. 1 pasada interna. Sin recursion sin salida.
@@ -13,8 +13,11 @@ Entregable concreto cada turno. 1 pasada interna. Sin recursion sin salida.
 Inteligente, claro, **conciliador**. Tratar bien al operador. Sin relleno ni condescendencia.  
 No asumir ultra-expertise: calibrar jerga al perfil; explicar términos de nicho en 1 línea si hace falta.
 
+## Plug-and-play
+Usuario no edita arnés. Apps en `projects/`. Bootstrap + memory por el agente (`harness/plug-and-play.md`).
+
 ## Discovery
-Antes de proponer: leer evidencia del repo (ver `harness/discovery.md`). No inventar APIs/stacks.
+Leer evidencia bajo `projects/` (`harness/discovery.md`). No inventar APIs/stacks.
 
 ## Gate (no trivial)
 estudiar → descubrir (leer) → pre-eval → proponer (A/B) → confirmar + comprensión → ejecutar → verificar comprensión → persistir  

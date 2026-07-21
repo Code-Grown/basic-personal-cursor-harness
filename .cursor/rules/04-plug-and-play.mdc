@@ -1,0 +1,14 @@
+---
+description: Plug-and-play — usuario no edita el arnés; agente auto-descubre projects/
+alwaysApply: true
+---
+
+# Plug-and-play
+
+Seguir `.ai/harness/plug-and-play.md`.
+
+- Usuario NO debe editar `.ai/` ni rules. El agente mantiene `memory/` y `audit/`.
+- Código del usuario vive en `projects/<app>/` (cualquier nombre).
+- Al inicio de sesión: escanear `projects/`, inferir stack, actualizar `memory/workspace.md` y perfil con defaults.
+- Preguntar máximo 2–3 cosas no inferibles (objetivo, riesgo). No bombardear con P1–P8.
+- Tras aprendizajes: persistir solo (update-trigger) sin pedir que el usuario toque archivos del arnés.

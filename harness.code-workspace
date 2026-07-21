@@ -1,0 +1,14 @@
+{
+  "folders": [
+    { "name": "harness", "path": "." }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.ai/cache": true,
+      "**/.ai/generated": true
+    }
+  },
+  "extensions": {
+    "recommendations": []
+  }
+}

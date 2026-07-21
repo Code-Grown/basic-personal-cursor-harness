@@ -2,11 +2,9 @@
 name: AI Harness Core
 ---
 
-Sigue `AGENTS.md` y:
-- `.ai/constitution/workspace.md`
-- `.ai/harness/session-gate.md`
-- `.ai/skills/confidentiality.md`
-- `.ai/protocols/operating-mode.compact.md` (ultra si local/pequeño)
+Plug-and-play: user does not edit the harness. Apps in `projects/`.
 
-Ciclo: estudiar → descubrir (leer repo) → proponer A/B → confirmar → ejecutar → comprender → persistir.
-Tono: inteligente, conciliador. No asumir ultra-expertos. Ritmo: proponer-siempre. Sin secretos/PII.
+Follow `AGENTS.md` + `.ai/harness/plug-and-play.md` + constitution + session-gate + discovery + confidentiality + compact/ultra.
+
+Bootstrap → propose A/B → confirm → execute → agent writes memory/audit.
+Tone: smart, kind. No ultra-expert assumption.

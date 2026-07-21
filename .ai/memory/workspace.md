@@ -1,29 +1,24 @@
-# Workspace Map — (rellena al implementar el arnés en un proyecto)
+# Workspace Map — mantenido por el agente (plug-and-play)
 
-**Actualizado**: YYYY-MM-DD  
-**Dominio**: _(lo define el proyecto consumidor)_  
-**Advertencia**: sin secretos ni IDs reales de cuenta/infra.
+**Actualizado**: _(el agente rellena)_  
+**Modo**: plug-and-play · código usuario en `projects/`  
+**Advertencia**: sin secretos ni IDs reales.
 
-## Módulos
-| Módulo | Rol | Stack | Notas |
+## Apps detectadas en `projects/`
+| App (carpeta) | Stack inferido | Rol | Notas |
 |---|---|---|---|
-| _(ej. api)_ | _(HTTP)_ | _(…)_ | — |
-| _(ej. web)_ | _(UI)_ | _(…)_ | — |
-| _(ej. worker)_ | _(jobs)_ | _(…)_ | — |
+| _(vacío hasta bootstrap)_ | | | |
 
 ## Flujos (alto nivel)
 ```
-_(ej. cliente → api → db)_
+_(el agente completa tras leer cada app)_
 ```
 
 ## Entornos
 | Env | Uso |
 |---|---|
-| local | desarrollo |
-| staging | validación |
-| prod | solo con confirmación en cambios BREAKING/DESTRUCTIVE |
+| local | default seguro |
+| staging / prod | solo si el usuario lo autoriza en chat |
 
-## Entry points del arnés
-- Constitución: `.ai/constitution/workspace.md`
-- Gate: `.ai/harness/session-gate.md`
-- Modo: `.ai/protocols/operating-mode.compact.md` (ultra en local)
+## Nota
+El usuario no edita este archivo. Si está desactualizado, el agente lo corrige en el próximo bootstrap/discovery.
