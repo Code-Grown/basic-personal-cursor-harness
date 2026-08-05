@@ -9,6 +9,16 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.1] — 2026-08-05
+
+### Added
+- `.ai/harness/close-versioning.md` — al cerrar requerimiento: commit en cada repo tocado; **preguntar** antes de push
+
+### Changed
+- `quality-bars`, `crystallize`, bridge — cierre con versionamiento local + oferta de push
+
+---
+
 ## [2.6.0] — 2026-08-05
 
 ### Added

@@ -14,11 +14,12 @@ Chat is **not** the source of truth. After useful work, write durable notes.
 
 ## Efficacy close (required if learning happened)
 1. Update skill or compact for the app under `projects/`.  
-2. If the lesson is **generic harness behavior** (safety, read-budget, discovery, crystallize, model-routing, tech→skills, repo-pointer):  
+2. Version code: `close-versioning.md` — commit touched repos; **ask** before push.  
+3. If the lesson is **generic harness behavior** (safety, read-budget, discovery, crystallize, model-routing, tech→skills, repo-pointer, quality-bars):  
    - Edit the harness file here  
    - Bump `VERSION` + `CHANGELOG.md`  
-   - Commit and **`git push origin main`**  
-3. Never push secrets, PII, or client/VPS/AWS private facts into this template.
+   - Commit and **`git push origin main`** (`promote-harness.md`)  
+4. Never push secrets, PII, or client/VPS/AWS private facts into this template.
 
 ## How
 - 1–5 bullets or one index row — no essays.  

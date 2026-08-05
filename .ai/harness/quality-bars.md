@@ -11,7 +11,8 @@ Portable bars. Product-specific tours/AWS envs live in private hubs — here onl
 6. **Use the stack well** — prefer established patterns over new deps.  
 7. **Intuitive + chat-friendly** — clear errors; short A/B proposals; `read-budget.md`.  
 8. **Confirm → execute → record** — `confirm-execute.md`.  
-9. **Maintainable code** — small diffs; clear names; crystallize invariants.
+9. **Maintainable code** — small diffs; clear names; crystallize invariants.  
+10. **Version at close** — commit in each touched repo; **ask** before push (`close-versioning.md`).
 
 ## Infra / multi-env (when the app uses it)
 - Prefer defining **all target envs** in code (not “only dev”).  
