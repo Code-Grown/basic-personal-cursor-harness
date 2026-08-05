@@ -5,7 +5,8 @@ priority: 900
 ---
 
 # AI Harness Constitution
-Versión 2.5.0 · Template multi-IA · Plug-and-play · Crystallize → push main  
+Versión 2.6.0 · Quality bars · Confirm-execute · Crystallize → push main  
+
 
 
 

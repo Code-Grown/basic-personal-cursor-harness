@@ -9,6 +9,18 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.0] — 2026-08-05
+
+### Added
+- `.ai/harness/quality-bars.md` — barras convergentes (guía, seguridad, secrets, UX, multi-env, mantenibilidad)
+- `.ai/harness/confirm-execute.md` — proponer → confirmar → ejecutar → grabar
+
+### Changed
+- Bridge carga quality-bars + confirm-execute en trabajo no trivial
+- Listas futuras del operador se anexan aquí (genérico) o en skills de dominio
+
+---
+
 ## [2.5.0] — 2026-08-05
 
 ### Added
