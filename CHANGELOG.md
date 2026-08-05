@@ -9,6 +9,24 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.3.0] — 2026-08-05
+
+### Added
+- `.ai/harness/safety-rails.md` — rails genéricos (secretos, irreversibles, confirmación)
+- `.ai/harness/read-budget.md` — presupuesto de lectura (anti-sobrelectura)
+- `.ai/harness/repo-pointer.md` + `templates/project-HARNESS.md` — puntero mínimo por app en `projects/` (anti-drift)
+- `.ai/harness/crystallize.md` — continuidad en memory/audit, no en el chat
+
+### Changed
+- Bridge Cursor `00-harness-core.mdc` — carga on-demand de safety / read-budget / repo-pointer
+- `plug-and-play.md` + `session-gate.md` — descubren/crean `HARNESS.md` sin copiar el arnés entero
+- `.gitignore` — ignora `.DS_Store`
+
+### Notes
+- Solo best-of **genérico**; sin memory operativa de workspaces privados ni hubs de producto.
+
+---
+
 ## [2.2.0] — 2026-07-20
 
 ### Added
@@ -37,7 +55,3 @@ Canónico: archivo `VERSION`.
 - Score de efectividad en `.ai/audit/architecture-score.md`
 
 ---
-
-## [2.1.0] — 2026-07-20
-
-Primera publicación del template multi-IA genérico (post-limpieza legacy).

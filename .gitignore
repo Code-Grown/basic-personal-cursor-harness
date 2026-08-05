@@ -8,6 +8,8 @@
 **/secrets/
 *.pem
 *.key
+.DS_Store
+**/.DS_Store
 
 # Apps del usuario pueden vivir aquí; no subir secretos de esas apps
 projects/**/.env
