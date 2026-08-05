@@ -9,6 +9,17 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.5.0] — 2026-08-05
+
+### Added
+- `.ai/harness/promote-harness.md` — protocolo: mejora genérica del arnés → VERSION → **push `main`**
+- Cierre de efficacy en `crystallize.md` (skills + promote)
+
+### Changed
+- `update-trigger` #11 · bridge `00-harness-core` — cristalizar y enviar mejoras “como arnés” a este repo
+
+---
+
 ## [2.4.1] — 2026-08-05
 
 ### Changed

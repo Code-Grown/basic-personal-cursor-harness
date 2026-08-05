@@ -43,3 +43,5 @@ Checklist:
 Anti-patrones:
 - …
 ```
+
+Skill de **dominio/producto**: ver `templates/domain-skill.md`.

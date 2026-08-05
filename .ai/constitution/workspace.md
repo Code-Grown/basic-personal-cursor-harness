@@ -5,7 +5,8 @@ priority: 900
 ---
 
 # AI Harness Constitution
-Versión 2.4.1 · Template multi-IA · Plug-and-play · Token-first · Tech→skills · Model-routing  
+Versión 2.5.0 · Template multi-IA · Plug-and-play · Crystallize → push main  
+
 
 
 

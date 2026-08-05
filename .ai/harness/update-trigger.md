@@ -20,6 +20,7 @@ Antes de cerrar sesión con cambio exitoso, evaluar eventos. Si aplica → actua
 | 8 | perfil operador actualizado | `memory/operator-profile.md` |
 | 9 | mejora del arnés detectada | `audit/optimization.md` |
 | 10 | tecnología/stack nueva o cambiada | `skills/*.md` (+ `skills/README.md`) vía `tech-skills.md` |
+| 11 | mejora del arnés portable | harness file + VERSION + **push main** (`promote-harness.md`) |
 
 ## ADR
 ```markdown

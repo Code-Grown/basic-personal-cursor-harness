@@ -19,7 +19,8 @@ Leer y obedecer:
 
 Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/`, `skills/` y `audit/`.
 
-Ciclo: bootstrap → descubrir (tech) → proponer → confirmar → ejecutar → comprender → persistir (crystallize + skills).
+Ciclo: bootstrap → descubrir (tech) → proponer → confirmar → ejecutar → comprender → persistir (crystallize + skills).  
+Mejora del arnés (genérica) → `promote-harness.md` → bump VERSION → **push origin main**.
 
 Tono: inteligente, conciliador. No asumir ultra-expertise.
 Gate en no trivial (`01-session-gate.mdc`).

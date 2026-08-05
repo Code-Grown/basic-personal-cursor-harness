@@ -1,6 +1,7 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.4.1 · Plug-and-play · Token-first · Confidentiality-first · Tech→skills · Model-routing  
+Versión 2.5.0 · Plug-and-play · Token-first · Crystallize/promote → push main  
+
 
 
 
@@ -13,7 +14,7 @@ Usuario no edita esto. Apps en `/projects/`. Agente mantiene `memory/` y `audit/
 .ai/
 ├── constitution/     regla maestra
 ├── protocols/        full | compact | ultra
-├── harness/          session-gate, safety-rails, read-budget, repo-pointer, tech-skills, model-routing, crystallize, triggers, checks, rollback
+├── harness/          session-gate, safety-rails, read-budget, repo-pointer, tech-skills, model-routing, crystallize, promote-harness, triggers, checks, rollback
 ├── agents/           planner · coder · reviewer · validator
 ├── memory/           mapa + ADRs + patterns + perfil (sin secretos)
 ├── skills/           confidentiality · trading-ml (opcional) · + las del proyecto
