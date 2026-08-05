@@ -5,7 +5,8 @@ priority: 900
 ---
 
 # AI Harness Constitution
-Versión 2.4.0 · Template multi-IA · Plug-and-play · Token-first · Tech→skills  
+Versión 2.4.1 · Template multi-IA · Plug-and-play · Token-first · Tech→skills · Model-routing  
+
 
 
 (SemVer canónico: `/VERSION`)

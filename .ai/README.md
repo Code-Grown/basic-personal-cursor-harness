@@ -1,6 +1,7 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.4.0 · Plug-and-play · Token-first · Confidentiality-first · Tech→skills  
+Versión 2.4.1 · Plug-and-play · Token-first · Confidentiality-first · Tech→skills · Model-routing  
+
 
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)

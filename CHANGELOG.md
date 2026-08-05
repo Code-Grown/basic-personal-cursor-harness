@@ -9,6 +9,17 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.4.1] — 2026-08-05
+
+### Changed
+- `model-routing.md` — rutinario **obliga** Composer en Task/subagentes (no heredar Grok/caro); alta exigencia sigue con modelo fuerte
+- Bridge: aviso de 1 línea si el chat es caro y la tarea es básica
+
+### Notes
+- El selector del chat lo controla el usuario; el arnés no puede cambiarlo, sí el `model` de subagentes.
+
+---
+
 ## [2.4.0] — 2026-08-05
 
 ### Added
