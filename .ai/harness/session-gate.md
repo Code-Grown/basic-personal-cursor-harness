@@ -49,4 +49,6 @@ Una pregunta cerrada, amable. Si confunde → no avanzar.
 
 ## Auto-mejora (obligatoria, sin pedir al usuario)
 Tras cambio útil o fricción: update-trigger → `memory/` y/o `audit/optimization.md`. El usuario no edita eso.
-Ver también `crystallize.md`. Si la app en `projects/` no tiene `.ai/HARNESS.md`, crearlo (mínimo) vía `repo-pointer.md`.
+Ver también `crystallize.md` y `tech-skills.md`.  
+Si la app en `projects/` no tiene `.ai/HARNESS.md`, crearlo (mínimo) vía `repo-pointer.md`.  
+Si hubo tech nueva estable → actualizar `.ai/skills/` en el mismo cierre.

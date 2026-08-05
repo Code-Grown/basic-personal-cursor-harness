@@ -1,6 +1,7 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.3.0 · Plug-and-play · Token-first · Confidentiality-first · Safety/read-budget  
+Versión 2.4.0 · Plug-and-play · Token-first · Confidentiality-first · Tech→skills  
+
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 
@@ -11,7 +12,7 @@ Usuario no edita esto. Apps en `/projects/`. Agente mantiene `memory/` y `audit/
 .ai/
 ├── constitution/     regla maestra
 ├── protocols/        full | compact | ultra
-├── harness/          session-gate, safety-rails, read-budget, repo-pointer, crystallize, triggers, checks, rollback
+├── harness/          session-gate, safety-rails, read-budget, repo-pointer, tech-skills, model-routing, crystallize, triggers, checks, rollback
 ├── agents/           planner · coder · reviewer · validator
 ├── memory/           mapa + ADRs + patterns + perfil (sin secretos)
 ├── skills/           confidentiality · trading-ml (opcional) · + las del proyecto

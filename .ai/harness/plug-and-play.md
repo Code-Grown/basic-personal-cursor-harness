@@ -22,6 +22,7 @@ Ejecutar en silencio o con un resumen corto (≤8 líneas), **sin pedir que edit
 3. Si hay proyectos → para cada uno (prioridad al que mencione el usuario):
    - Comprobar `projects/<app>/.ai/HARNESS.md` (ver `repo-pointer.md`); si falta → crear solo el mínimo (`templates/project-HARNESS.md`).
    - Detectar stack por evidencias: `package.json`, `go.mod`, `pyproject.toml`, `Cargo.toml`, `pom.xml`, `*.csproj`, `docker-compose.yml`, etc.
+   - Si el stack es estable y aún no hay skill → crear/actualizar skill delgado (`tech-skills.md`).
    - Leer README del proyecto si existe (solo lo necesario).
    - Actualizar `.ai/memory/workspace.md` (el agente escribe; el usuario no).
    - No copiar el arnés completo dentro de cada app.

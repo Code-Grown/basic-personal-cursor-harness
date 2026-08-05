@@ -1,6 +1,6 @@
 # AI Harness Template — plug-and-play multi-IA
 
-**Versión:** `2.3.0` · [`VERSION`](VERSION) · [`CHANGELOG.md`](CHANGELOG.md) · [`VERSIONING.md`](VERSIONING.md)
+**Versión:** `2.4.0` · [`VERSION`](VERSION) · [`CHANGELOG.md`](CHANGELOG.md) · [`VERSIONING.md`](VERSIONING.md)
 
 Arnés para Cursor, Copilot, Claude, Gemini, Continue, Ollama y más.  
 **Los usuarios no editan el arnés.** Solo dejan su código y chatean.
@@ -26,11 +26,12 @@ Hola — trabaja sobre projects/mi-app. Quiero <objetivo en una frase>.
 
 El agente **solo** debería:
 - detectar la app y el stack,
+- cristalizar tecnologías estables en `.ai/skills/` (automejora por iteración),
 - asegurar un puntero mínimo `projects/<app>/.ai/HARNESS.md` (sin copiar el arnés entero),
 - actualizar `.ai/memory/` (tú no lo tocas),
 - proponer A/B antes de cambios importantes,
-- ir guardando aprendizajes (crystallize / auto-mejora de memoria),
-- respetar safety-rails y read-budget (menos tokens, menos riesgo).
+- ir guardando aprendizajes (crystallize / skills / memory),
+- respetar safety-rails, read-budget y model-routing (menos tokens, menos riesgo).
 
 Manual corto: [`projects/README.md`](projects/README.md) · guion: [`docs/getting-started/FIRST_SESSION.md`](docs/getting-started/FIRST_SESSION.md).
 

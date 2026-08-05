@@ -5,7 +5,8 @@ Chat is **not** the source of truth. After useful work, write durable notes.
 ## Where
 | Finding | Destination |
 |---|---|
-| Workspace map / stack facts | `.ai/memory/workspace.md` |
+| Workspace map / ports | `.ai/memory/workspace.md` |
+| Stable technology / stack | `.ai/skills/<stack>.md` (`tech-skills.md`) |
 | Decision / ADR | `.ai/memory/decisions.md` |
 | Reusable pattern | `.ai/memory/patterns.md` or a skill |
 | Token/friction lesson | `.ai/audit/optimization.md` |

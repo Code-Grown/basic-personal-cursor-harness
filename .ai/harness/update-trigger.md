@@ -19,6 +19,7 @@ Antes de cerrar sesión con cambio exitoso, evaluar eventos. Si aplica → actua
 | 7 | infra / deploy / entorno crítico | `memory/decisions.md` + `patterns.md` |
 | 8 | perfil operador actualizado | `memory/operator-profile.md` |
 | 9 | mejora del arnés detectada | `audit/optimization.md` |
+| 10 | tecnología/stack nueva o cambiada | `skills/*.md` (+ `skills/README.md`) vía `tech-skills.md` |
 
 ## ADR
 ```markdown

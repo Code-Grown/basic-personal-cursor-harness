@@ -9,6 +9,19 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.4.0] — 2026-08-05
+
+### Added
+- `.ai/harness/tech-skills.md` — detectar tecnologías por evidencia y cristalizar en `.ai/skills/` cada iteración
+- `.ai/harness/model-routing.md` — Composer (barato) vs modelo fuerte según tarea
+- Trigger #10 en `update-trigger.md` (tech/stack → skills)
+
+### Changed
+- `discovery`, `plug-and-play`, `crystallize`, `session-gate`, `00-harness-core` — tech→skills en el ciclo
+- `skills/README.md` — automejora documentada
+
+---
+
 ## [2.3.0] — 2026-08-05
 
 ### Added

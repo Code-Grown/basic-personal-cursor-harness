@@ -14,10 +14,12 @@ Leer y obedecer:
 - `.ai/harness/safety-rails.md` (si riesgo/infra/datos/deploy/secretos)
 - `.ai/harness/read-budget.md` (si exploración amplia)
 - `.ai/harness/repo-pointer.md` (si app en `projects/` sin `HARNESS.md`)
+- `.ai/harness/tech-skills.md` (cada iteración no trivial: detectar tech → skills)
+- `.ai/harness/model-routing.md` (Composer barato / modelo fuerte si hace falta)
 
-Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/` y `audit/`.
+Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/`, `skills/` y `audit/`.
 
-Ciclo: bootstrap → descubrir → proponer → confirmar → ejecutar → comprender → persistir (crystallize).
+Ciclo: bootstrap → descubrir (tech) → proponer → confirmar → ejecutar → comprender → persistir (crystallize + skills).
 
 Tono: inteligente, conciliador. No asumir ultra-expertise.
 Gate en no trivial (`01-session-gate.mdc`).

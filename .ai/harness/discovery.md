@@ -15,8 +15,9 @@ No inventar apps fuera de lo listado en disco.
 1. Confirmar qué app (`projects/X`) es el foco.
 2. Localizar archivos (glob/grep acotado a esa app).
 3. Leer solo lo necesario.
-4. Actualizar `.ai/memory/workspace.md` si el mapa cambió (agente escribe).
-5. Proponer citando paths reales bajo `projects/`.
+4. **Identificar tecnologías** (manifests) → si hay aprendizaje estable, actualizar skills (`tech-skills.md`).
+5. Actualizar `.ai/memory/workspace.md` si el mapa cambió (agente escribe).
+6. Proponer citando paths reales bajo `projects/`.
 
 ## Señales de stack (ejemplos)
 | Evidencia | Inferir |
@@ -27,7 +28,10 @@ No inventar apps fuera de lo listado en disco.
 | `docker-compose.yml` | servicios locales |
 | `*.tf` | Terraform |
 
+Detalle y persistencia en skills: `tech-skills.md`.
+
 ## Prohibido
 - Asumir APIs/stacks sin evidencia.
 - Pedir al usuario que documente el arnés a mano.
 - Escanear todo el monorepo sin foco.
+- Detectar tech y **no** cristalizarla cuando mejora futuras respuestas.
