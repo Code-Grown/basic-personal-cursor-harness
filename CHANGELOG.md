@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.2] — 2026-08-05
+
+### Changed
+- `quality-bars` — chat IA: Enter envía · Shift+Enter salto de línea (convención UX)
+
+---
+
 ## [2.6.1] — 2026-08-05
 
 ### Added

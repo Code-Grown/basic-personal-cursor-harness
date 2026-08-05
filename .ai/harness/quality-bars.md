@@ -8,6 +8,7 @@ Portable bars. Product-specific tours/AWS envs live in private hubs — here onl
 3. **Secrets configurable** — env/config UI only; never hardcode; never echo secrets.  
 4. **Stability** — backend-first when cross-cutting; idempotent migrations; smoke what you touch.  
 5. **Consistent UI** — reuse existing components/tokens; no new design system in one PR.  
+   - **AI chat**: Enter sends · Shift+Enter newline (not Cmd/Ctrl+Enter).
 6. **Use the stack well** — prefer established patterns over new deps.  
 7. **Intuitive + chat-friendly** — clear errors; short A/B proposals; `read-budget.md`.  
 8. **Confirm → execute → record** — `confirm-execute.md`.  

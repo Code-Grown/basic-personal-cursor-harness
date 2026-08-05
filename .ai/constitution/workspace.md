@@ -5,7 +5,7 @@ priority: 900
 ---
 
 # AI Harness Constitution
-Versión 2.6.1 · Close-versioning · Quality bars · Crystallize  
+Versión 2.6.2 · Close-versioning · Quality bars · Crystallize  
 
 
 

@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.1 · Close-versioning · Quality bars · Crystallize → push main  
+Versión 2.6.2 · Close-versioning · Quality bars · Crystallize → push main  
 
 
 
