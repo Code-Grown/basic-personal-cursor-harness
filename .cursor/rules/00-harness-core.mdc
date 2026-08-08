@@ -15,7 +15,7 @@ Leer y obedecer:
 - `.ai/harness/read-budget.md` (si exploración amplia)
 - `.ai/harness/repo-pointer.md` (si app en `projects/` sin `HARNESS.md`)
 - `.ai/harness/tech-skills.md` (cada iteración no trivial: detectar tech → skills)
-- `.ai/harness/model-routing.md` (rutinario → Composer en Task; no heredar modelo caro; alta exigencia → modelo fuerte)
+- `.ai/harness/model-routing.md` (Grok/fuerte por defecto; Tasks heredan; Composer solo pedido explícito)
 - `.ai/harness/quality-bars.md` + `confirm-execute.md` (features/UI/infra no trivial)
 - `.ai/harness/close-versioning.md` (cierre: commit por repo; preguntar push)
 

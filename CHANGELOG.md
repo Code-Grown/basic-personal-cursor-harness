@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.3] — 2026-08-08
+
+### Changed
+- `model-routing` — Grok/fuerte por defecto; Tasks **heredan**; Composer solo pedido explícito (rollback del forzaje Composer)
+
+---
+
 ## [2.6.2] — 2026-08-05
 
 ### Changed
