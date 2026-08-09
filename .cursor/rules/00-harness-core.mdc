@@ -17,7 +17,7 @@ Leer y obedecer:
 - `.ai/harness/tech-skills.md` (cada iteración no trivial: detectar tech → skills)
 - `.ai/harness/model-routing.md` (Grok/fuerte por defecto; Tasks heredan; Composer solo pedido explícito)
 - `.ai/harness/quality-bars.md` + `confirm-execute.md` + `change-strategy.md` (features/UI/infra no trivial; no desarmar fixes previos)
-- `.ai/harness/close-versioning.md` (cierre: commit por repo; preguntar push)
+- `.ai/harness/close-versioning.md` (cierre: commit siempre; sin remoto no push; preguntar si hay remoto)
 
 Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/`, `skills/` y `audit/`.
 

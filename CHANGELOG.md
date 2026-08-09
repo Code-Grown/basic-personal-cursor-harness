@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.5] — 2026-08-09
+
+### Changed
+- `close-versioning` — commit siempre; sin remoto no push; preferir rama activa / main; evitar tags y feature branches (converger a principal/env)
+
+---
+
 ## [2.6.4] — 2026-08-09
 
 ### Added

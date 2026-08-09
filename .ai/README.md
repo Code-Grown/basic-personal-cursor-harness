@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.4 · Change-strategy · Close-versioning · Quality bars · Crystallize → push main
+Versión 2.6.5 · Close-versioning (commit siempre · push con remoto) · Change-strategy · Crystallize → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 

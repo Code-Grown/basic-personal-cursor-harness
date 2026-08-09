@@ -14,7 +14,7 @@ Portable bars. Product-specific tours/AWS envs live in private hubs — here onl
 8. **Confirm → execute → record** — `confirm-execute.md`.  
 9. **Change strategy** — evaluate A/B; do not undo prior fixes (`change-strategy.md`).  
 10. **Maintainable code** — small diffs; clear names; crystallize invariants.  
-11. **Version at close** — commit in each touched repo; **ask** before push (`close-versioning.md`).
+11. **Version at close** — always commit on the working branch; push only if a remote exists and user says yes (`close-versioning.md`). No tags/feature branches by habit — converge to main/env.
 
 ## Infra / multi-env (when the app uses it)
 - Prefer defining **all target envs** in code (not “only dev”).  
