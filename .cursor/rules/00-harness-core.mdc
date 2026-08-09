@@ -16,12 +16,12 @@ Leer y obedecer:
 - `.ai/harness/repo-pointer.md` (si app en `projects/` sin `HARNESS.md`)
 - `.ai/harness/tech-skills.md` (cada iteración no trivial: detectar tech → skills)
 - `.ai/harness/model-routing.md` (Grok/fuerte por defecto; Tasks heredan; Composer solo pedido explícito)
-- `.ai/harness/quality-bars.md` + `confirm-execute.md` (features/UI/infra no trivial)
+- `.ai/harness/quality-bars.md` + `confirm-execute.md` + `change-strategy.md` (features/UI/infra no trivial; no desarmar fixes previos)
 - `.ai/harness/close-versioning.md` (cierre: commit por repo; preguntar push)
 
 Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/`, `skills/` y `audit/`.
 
-Ciclo: bootstrap → descubrir (tech) → proponer → confirmar → ejecutar → comprender → persistir (crystallize + skills).  
+Ciclo: bootstrap → descubrir (tech) → evaluar estrategia → proponer → confirmar → ejecutar → comprender → persistir (crystallize + skills).  
 Mejora del arnés (genérica) → `promote-harness.md` → bump VERSION → **push origin main**.
 
 Tono: inteligente, conciliador. No asumir ultra-expertise.

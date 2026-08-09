@@ -9,6 +9,16 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.4] — 2026-08-09
+
+### Added
+- `change-strategy.md` — evaluar estrategias A/B; no desarmar correcciones previas
+
+### Changed
+- `confirm-execute`, `quality-bars`, bridge — checklist pre-cambio con preservación de fixes
+
+---
+
 ## [2.6.3] — 2026-08-08
 
 ### Changed

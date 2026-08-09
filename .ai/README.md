@@ -1,11 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.2 · Close-versioning · Quality bars · Crystallize → push main  
-
-
-
-
-
+Versión 2.6.4 · Change-strategy · Close-versioning · Quality bars · Crystallize → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 
@@ -16,7 +11,7 @@ Usuario no edita esto. Apps en `/projects/`. Agente mantiene `memory/` y `audit/
 .ai/
 ├── constitution/     regla maestra
 ├── protocols/        full | compact | ultra
-├── harness/          session-gate, safety-rails, read-budget, quality-bars, confirm-execute, close-versioning, repo-pointer, tech-skills, model-routing, crystallize, promote-harness, triggers, checks, rollback
+├── harness/          session-gate, safety-rails, read-budget, quality-bars, confirm-execute, change-strategy, close-versioning, repo-pointer, tech-skills, model-routing, crystallize, promote-harness, triggers, checks, rollback
 ├── agents/           planner · coder · reviewer · validator
 ├── memory/           mapa + ADRs + patterns + perfil (sin secretos)
 ├── skills/           confidentiality · trading-ml (opcional) · + las del proyecto
