@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.6] — 2026-08-09
+
+### Added
+- `ai-product-models.md` — catálogo LLM vigente (Gemini 3.6 · GPT-5.6 Luna/Terra/Sol · Claude Sonnet/Opus/Fable 5) al implementar IA en productos
+
+---
+
 ## [2.6.5] — 2026-08-09
 
 ### Changed
