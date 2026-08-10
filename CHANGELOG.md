@@ -9,6 +9,16 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.7] — 2026-08-10
+
+### Added
+- `context-discipline.md` — cristalizar puntos críticos y lo que salió bien; liberar sobrante; no recompactar chat como memoria
+
+### Changed
+- `crystallize` — obligatorio también al cambiar de requerimiento/tema
+
+---
+
 ## [2.6.6] — 2026-08-09
 
 ### Added

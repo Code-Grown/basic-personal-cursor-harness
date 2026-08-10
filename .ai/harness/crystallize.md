@@ -1,6 +1,8 @@
 # Crystallize (generic) · continuity without chat
 
-Chat is **not** the source of truth. After useful work, write durable notes.
+Chat is **not** the source of truth. After useful work **or when the requirement/topic changes**, write durable notes.
+
+Memory discipline: `context-discipline.md` — crystallize critical points / what worked; do not recompact surplus as chat context.
 
 ## Where
 | Finding | Destination |
@@ -12,14 +14,12 @@ Chat is **not** the source of truth. After useful work, write durable notes.
 | Token/friction / harness efficacy lesson | `.ai/audit/optimization.md` |
 | **Harness-level** improvement (portable) | This repo’s `.ai/harness/*` + bump VERSION + **push `main`** |
 
-## Efficacy close (required if learning happened)
-1. Update skill or compact for the app under `projects/`.  
-2. Version code: `close-versioning.md` — commit touched repos; **ask** before push.  
-3. If the lesson is **generic harness behavior** (safety, read-budget, discovery, crystallize, model-routing, tech→skills, repo-pointer, quality-bars):  
-   - Edit the harness file here  
-   - Bump `VERSION` + `CHANGELOG.md`  
-   - Commit and **`git push origin main`** (`promote-harness.md`)  
-4. Never push secrets, PII, or client/VPS/AWS private facts into this template.
+## Efficacy close (required if learning happened or topic changed)
+1. What worked / critical invariant → skill or compact (1–5 bullets).  
+2. Drop noise — do not dump the thread into generated “recompacted context”.  
+3. Version code: `close-versioning.md` — commit touched repos; push only with remote + ask.  
+4. If the lesson is **generic harness behavior**: edit harness here → bump `VERSION` + `CHANGELOG` → **`git push origin main`** (`promote-harness.md`).  
+5. Never push secrets, PII, or client/VPS/AWS private facts into this template.
 
 ## How
 - 1–5 bullets or one index row — no essays.  

@@ -19,10 +19,12 @@ Leer y obedecer:
 - `.ai/harness/quality-bars.md` + `confirm-execute.md` + `change-strategy.md` (features/UI/infra no trivial; no desarmar fixes previos)
 - `.ai/harness/ai-product-models.md` (al implementar IA en apps: catálogo LLM vigente)
 - `.ai/harness/close-versioning.md` (cierre: commit siempre; sin remoto no push; preguntar si hay remoto)
+- `.ai/harness/context-discipline.md` (cristalizar crítico / lo que salió bien; no recompactar chat)
 
 Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/`, `skills/` y `audit/`.
 
 Ciclo: bootstrap → descubrir (tech) → evaluar estrategia → proponer → confirmar → ejecutar → comprender → persistir (crystallize + skills).  
+Cambio de tema → cristalizar primero; liberar sobrante del contexto.  
 Mejora del arnés (genérica) → `promote-harness.md` → bump VERSION → **push origin main**.
 
 Tono: inteligente, conciliador. No asumir ultra-expertise.
