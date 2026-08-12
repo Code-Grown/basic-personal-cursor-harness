@@ -9,6 +9,16 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.8] — 2026-08-12
+
+### Added
+- `ux-flow-first.md` — ready-to-do para rediseño/intuitividad (flujo primero; mobile ≠ admin; no RAG/Context7 como fix UX)
+
+### Changed
+- `quality-bars` — barra flow-first UX
+
+---
+
 ## [2.6.7] — 2026-08-10
 
 ### Added
