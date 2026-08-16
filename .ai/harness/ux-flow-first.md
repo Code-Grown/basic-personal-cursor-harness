@@ -6,7 +6,8 @@ When the operator asks for **redesign / more intuitive / less generic admin / be
 2. Propose A/B with **flow-first** UX (not just theme/Material polish).  
 3. Execute after confirm; do not undo working tours/AI (`change-strategy.md`).
 
-> Context7 / RAG are **not** the default fix. In-app help is a complement after flows are clear.
+> Context7 / RAG are **not** the default fix. In-app help is a complement after flows are clear.  
+> Names, AI boxes, fine finishing → also `ux-craft.md` (working guide).
 
 ## Avoid
 Menu → isolated screen → form → “guess the next module”.  

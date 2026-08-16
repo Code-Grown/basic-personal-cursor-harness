@@ -9,6 +9,16 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.9] — 2026-08-16
+
+### Added
+- `ux-craft.md` — working guide (human name of the harness); well-made AI interpretations; fine finishing of boxes/margins on every app (existing or new)
+
+### Changed
+- `quality-bars`, `ux-flow-first`, plug-and-play, project-HARNESS, bridge — load craft on UI/copy/AI
+
+---
+
 ## [2.6.8] — 2026-08-12
 
 ### Added

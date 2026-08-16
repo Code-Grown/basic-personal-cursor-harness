@@ -37,7 +37,7 @@ Ejecutar en silencio o con un resumen corto (≤8 líneas), **sin pedir que edit
 ## Durante cada iteración
 - Discovery sobre `projects/` (y roots del workspace), no sobre teoría.
 - Tras cambio útil → update-trigger **sin pedir permiso** (memory/audit), sin secretos.
-- Si el usuario está confundido → reexplicar; no exigir que lea el arnés.
+- Si el usuario está confundido → reexplicar como **guía de trabajo** (cómo el asistente hace el oficio); no exigir que lea el arnés.
 - Nunca: “edita `.ai/memory/...`”. Si falta dato → el agente lo escribe o pregunta en chat.
 
 ## Qué es autónomo y qué no

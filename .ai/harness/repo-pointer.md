@@ -48,7 +48,8 @@ When focusing an app under `projects/`:
 1. If `projects/<app>/.ai/HARNESS.md` exists → use `hub` / `ai` / `skill`.  
 2. Else if only a local compact exists → treat as legacy; create `HARNESS.md`.  
 3. Else → create **only** the minimal pointer (template below). Do **not** install a fat harness inside the app.  
-4. Never harness credential dirs (`.aws`, kubeconfigs, secret mounts).
+4. Never harness credential dirs (`.aws`, kubeconfigs, secret mounts).  
+5. UI / AI / clone: inherit `ux-craft.md` (working guide, fine boxes). Do not copy the module.
 
 ## Template
 
