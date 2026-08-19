@@ -15,6 +15,7 @@ Portable bars. Product-specific tours/AWS envs live in private hubs — here onl
 8b. **Craft** — UI / copy / AI surfaces: `ux-craft.md`. Working guide; global chrome (dismissible toasts, 8px radius, modal buttons inside the frame, labels vs placeholders, fixed auth fields, mobile tables); voice on AI chat.  
 8c. **IA-first** — `ia-first.md`: tours/learning persist as in-app chat context; optimize the working guide on every development.  
 8d. **Gap-fill** — if they say it is missing / does not exist: `gap-fill.md` (create a careful compensation).  
+8e. **Pug** — Vue/Nuxt: `vue-pug.md`. New templates in Pug; on touch, migrate HTML immediately.  
 9. **Confirm → execute → record** — `confirm-execute.md`.  
 10. **Change strategy** — evaluate A/B; do not undo prior fixes (`change-strategy.md`).  
 11. **Maintainable code** — small diffs; clear names; crystallize invariants.  

@@ -9,6 +9,16 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.11] — 2026-08-18
+
+### Added
+- `vue-pug.md` — Vue/Nuxt templates are Pug; HTML SFCs migrate on touch in the same iteration
+
+### Changed
+- quality-bars, tech-skills, bridges — Pug is a hard rule, not optional
+
+---
+
 ## [2.6.10] — 2026-08-18
 
 ### Added

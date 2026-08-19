@@ -24,6 +24,7 @@ Leer y obedecer:
 - `.ai/harness/ux-craft.md` (UI / copy / cajas IA: guía de trabajo · chrome · voz)
 - `.ai/harness/ia-first.md` (feature / tour / chat IA)
 - `.ai/harness/gap-fill.md` (si dicen que falta o no existe)
+- `.ai/harness/vue-pug.md` (Vue/Nuxt: Pug estricto; HTML al tocar se migra de una)
 
 Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/`, `skills/` y `audit/`.
 

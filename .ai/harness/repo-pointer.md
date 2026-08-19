@@ -49,7 +49,7 @@ When focusing an app under `projects/`:
 2. Else if only a local compact exists → treat as legacy; create `HARNESS.md`.  
 3. Else → create **only** the minimal pointer (template below). Do **not** install a fat harness inside the app.  
 4. Never harness credential dirs (`.aws`, kubeconfigs, secret mounts).  
-5. UI / AI / clone: inherit `ux-craft.md` + `ia-first.md` + `gap-fill.md`. Do not copy the modules.
+5. UI / AI / clone: inherit `ux-craft.md` + `ia-first.md` + `gap-fill.md`. Vue/Nuxt → `vue-pug.md`. Do not copy the modules.
 
 ## Template
 
