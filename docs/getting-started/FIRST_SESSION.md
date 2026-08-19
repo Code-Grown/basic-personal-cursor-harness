@@ -14,7 +14,8 @@ Arranca el bootstrap del arnés y propón antes de editar.
 2. Actualiza memory solo.
 3. Te hace máximo 2–3 preguntas si hace falta (riesgo local/prod, etc.).
 4. Te da opciones A/B.
-5. Tras tu OK, implementa y guarda aprendizajes.
+5. Tras tu OK, implementa y guarda aprendizajes.  
+6. Si algo es rutina (“siempre / en todos”) → una viñeta de patrón. Si es dato tuyo o de la empresa → te **anticipa** qué guardaría y espera OK.
 
 ## Mensaje 2 (cuando apruebes)
 ```

@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.12 · disparo de patrón · anticipar personal/empresa → push main
+Versión 2.6.13 · patrón + anticipar visibles en arranque → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 

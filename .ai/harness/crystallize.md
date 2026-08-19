@@ -14,6 +14,7 @@ Memory discipline: `context-discipline.md` — crystallize critical points / wha
 | Token/friction / harness efficacy lesson | `.ai/audit/optimization.md` |
 | **Harness-level** improvement (portable) | This repo’s `.ai/harness/*` + bump VERSION + **push `main`** |
 | Tour / working guide / learning pack | Persist for the **in-app AI chat** (`ia-first.md`); suggest 1–3 command/guide improvements at close |
+| Personal / company data | **Do not write** until anticipated (`safety-rails.md`). Never this template. |
 
 ## Efficacy close (required if learning happened or topic changed)
 1. What worked / critical invariant → skill or compact (1–5 bullets).  

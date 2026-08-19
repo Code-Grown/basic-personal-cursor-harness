@@ -9,6 +9,14 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.13] — 2026-08-19
+
+### Changed
+- Operator-facing path (README, AGENTS, FIRST_SESSION, plug-and-play, confidentiality) surfaces pattern catch + anticipate — so a clone inherits it without reading harness internals
+- plug-and-play: update-trigger stays autonomous except personal/company (anticipate first)
+
+---
+
 ## [2.6.12] — 2026-08-19
 
 ### Added

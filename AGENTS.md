@@ -12,7 +12,8 @@ El usuario **no edita el arnés**. Solo pone apps en `projects/` y chatea.
 ## Autonomía del agente
 - Bootstrap: escanear `projects/`, inferir stack, escribir `memory/`.
 - Gate A/B en cambios no triviales; defaults seguros (local, proponer-siempre).
-- Auto-mejora: update-trigger → memory/audit sin pedir al usuario que toque archivos.
+- Auto-mejora: update-trigger → memory/audit sin pedir al usuario que toque archivos.  
+- Patrón rutina/estratégico → viñeta (`crystallize.md`). Personal/empresa → anticipar (`safety-rails.md` + confidentiality).
 - Tono conciliador; no asumir ultra-expertos.
 
 ## Bridges

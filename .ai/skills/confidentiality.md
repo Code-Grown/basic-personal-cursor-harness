@@ -24,3 +24,6 @@
 ## Memory
 `memory/` solo hechos no sensibles. Marcar categoría `SENSITIVE` y omitir detalle si aplica.
 Nunca copiar secretos a `generated/` ni `audit/`.
+
+## Anticipar (respaldo del operador)
+Antes de escribir en memory/skills/este template algo personal o de empresa: 3 líneas (qué · dónde · qué se saca) y esperar OK. Ver `harness/safety-rails.md`. No scrapear historiales que el operador guarda.

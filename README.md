@@ -1,6 +1,6 @@
 # AI Harness Template — plug-and-play multi-IA
 
-**Versión:** `2.6.12` · [`VERSION`](VERSION) · [`CHANGELOG.md`](CHANGELOG.md) · [`VERSIONING.md`](VERSIONING.md)
+**Versión:** `2.6.13` · [`VERSION`](VERSION) · [`CHANGELOG.md`](CHANGELOG.md) · [`VERSIONING.md`](VERSIONING.md)
 
 Arnés para Cursor, Copilot, Claude, Gemini, Continue, Ollama y más.  
 **Los usuarios no editan el arnés.** Solo dejan su código y chatean.
@@ -31,6 +31,7 @@ El agente **solo** debería:
 - actualizar `.ai/memory/` (tú no lo tocas),
 - proponer A/B antes de cambios importantes,
 - ir guardando aprendizajes (crystallize / skills / memory),
+- capturar patrones de rutina en el mismo turno; **anticipar** antes de guardar dato personal o de empresa,
 - respetar safety-rails, read-budget y model-routing (menos tokens, menos riesgo).
 
 Manual corto: [`projects/README.md`](projects/README.md) · guion: [`docs/getting-started/FIRST_SESSION.md`](docs/getting-started/FIRST_SESSION.md).
