@@ -9,6 +9,18 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.10] — 2026-08-18
+
+### Added
+- `ux-craft` §5–6 — global chrome: dismissible toasts, 8px radius, modal buttons in-frame (mobile), labels vs placeholders, fixed auth fields, mobile tables; voice on every AI chat
+- `ia-first.md` — product around AI; learning pack as in-app chat context; optimize working guide on every development
+- `gap-fill.md` — if it is missing, create a careful compensation
+
+### Changed
+- quality-bars, confirm-execute, crystallize, bridges — inherit without re-asking
+
+---
+
 ## [2.6.9] — 2026-08-16
 
 ### Added

@@ -21,7 +21,9 @@ Leer y obedecer:
 - `.ai/harness/close-versioning.md` (cierre: commit siempre; sin remoto no push; preguntar si hay remoto)
 - `.ai/harness/context-discipline.md` (cristalizar crítico / lo que salió bien; no recompactar chat)
 - `.ai/harness/ux-flow-first.md` (rediseño / intuitividad / mobile usable)
-- `.ai/harness/ux-craft.md` (UI / copy / cajas IA: guía de trabajo · terminaciones finas)
+- `.ai/harness/ux-craft.md` (UI / copy / cajas IA: guía de trabajo · chrome · voz)
+- `.ai/harness/ia-first.md` (feature / tour / chat IA)
+- `.ai/harness/gap-fill.md` (si dicen que falta o no existe)
 
 Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/`, `skills/` y `audit/`.
 

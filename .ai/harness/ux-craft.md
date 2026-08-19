@@ -60,8 +60,28 @@ Anti-pattern: default card dump, raw markdown without a host, boxes flush to the
 
 Care = **detail you feel while using**, not more widgets.
 
+## 5. Global chrome (every app inherits)
+
+Same token on cards, panels, dialogs, menus, toasts. Apply when you touch; do not restyle the whole site.
+
+| Piece | Done when… |
+|---|---|
+| **Radius** | `--radius-panel: 8px` (half of typical 16/xl). Never >12 on cards. Same everywhere. |
+| **Proportion** | Same-type cards: same padding (16) and radius. Do not mix 8 with 24. |
+| **Toast** | Always dismissible: **X** and swipe. Never timeout-only. |
+| **Modal / popup** | Actions **inside** the frame (footer with panel padding). No overflow, no clash. |
+| **Modal buttons** | Desktop: grouped right (secondary + primary). Mobile: full-width stack or group + overflow; size by viewport; gap 8. |
+| **Label vs placeholder** | Label outside or persistent outlined. Placeholder ≠ title. Hint below. No collision. |
+| **Auth fields** | Login/register/etc.: **fixed** surface bg at rest and focus. Do not darken on blur. `on-surface` text. |
+| **Mobile tables** | Do not crush columns. Card-per-row **or** scroll + sticky first col + row actions. Compact, readable. |
+
+Anti-pattern: `rounded-xl`/24px per card; snackbar without X; dialog buttons clipped at 320px; same text as label and placeholder; field goes dark when idle; wide data-table on a phone.
+
+## 6. Voice on every AI chat
+Every AI composer has **voice input**. Reuse the app composable if it exists. If the browser lacks SpeechRecognition, the mic stays visible and explains the fallback. Enter sends · Shift+Enter newline.
+
 ## When to load
-UI · copy · AI chat/markdown · tour · empty state · clone · new app with a screen.
+UI · copy · AI chat · tour · empty state · clone · new app · toast/modal/form/table.
 
 ## Related
-Flow → `ux-flow-first.md` · LLM ids → `ai-product-models.md` · don’t undo → `change-strategy.md`.
+Flow → `ux-flow-first.md` · IA-first → `ia-first.md` · missing → `gap-fill.md` · models → `ai-product-models.md` · don’t undo → `change-strategy.md`.

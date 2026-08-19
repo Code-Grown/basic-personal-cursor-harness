@@ -10,3 +10,5 @@ For **non-trivial** changes (code, schema, deploy, infra):
 5. Never treat silence as OK for BREAKING / DESTRUCTIVE / SENSITIVE / production.
 
 SAFE trivial may proceed; still crystallize if there is a lasting lesson.
+
+6. **Gap-fill** → `gap-fill.md`: if they say something is missing, do not stop at “it isn’t there”. SAFE → create now. New piece → short A/B and build (unless BREAKING/prod).
