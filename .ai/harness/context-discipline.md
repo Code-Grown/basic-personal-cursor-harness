@@ -15,7 +15,8 @@ Chat is ephemeral. Continuity lives on disk (`crystallize.md`).
 ## When to crystallize (required)
 1. **Requirement or topic change** (even in the same chat).  
 2. End of a useful delivery / learning iteration.  
-3. After a non-trivial fix that must survive the next session.
+3. After a non-trivial fix that must survive the next session.  
+4. **Pattern signal** (twice / always / routine / strategic) → same-turn bullet (`crystallize.md`). Personal/company → anticipate (`safety-rails`).
 
 ## Keep (critical)
 - Invariants: endpoint, role, flow, schema, decision, convention, infra.  

@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.11 · Pug estricto · chrome · IA-first · gap-fill → push main
+Versión 2.6.12 · disparo de patrón · anticipar personal/empresa → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 

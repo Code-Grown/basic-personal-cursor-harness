@@ -9,6 +9,17 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.12] — 2026-08-19
+
+### Added
+- Pattern trigger: same-turn bullet on routine/strategic signals (`crystallize`, session-gate)
+- Anticipate before absorbing personal or company data (`safety-rails`) — operator backup
+
+### Changed
+- context-discipline, quality-bars, bridges — fire the catch; do not scrape saved chats
+
+---
+
 ## [2.6.11] — 2026-08-18
 
 ### Added

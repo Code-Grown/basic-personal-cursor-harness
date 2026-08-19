@@ -22,6 +22,14 @@ Memory discipline: `context-discipline.md` — crystallize critical points / wha
 4. If the lesson is **generic harness behavior**: edit harness here → bump `VERSION` + `CHANGELOG` → **`git push origin main`** (`promote-harness.md`).  
 5. Never push secrets, PII, or client/VPS/AWS private facts into this template.
 
+## Pattern trigger (same turn — don’t wait for “harness this”)
+Signal: asked **twice** · “always / never / everywhere” · every-feature routine · strategic (more than one app).
+
+Same turn: 1 bullet on the right floor. Not the thread. Not `generated/`.  
+Operator-kept chat logs = **their** backup; do not ingest whole. If they ask “what slipped?”, keywords + short window.
+
+If the bullet would include **personal or company** data → `safety-rails.md` (anticipate). Do not write silently.
+
 ## How
 - 1–5 bullets or one index row — no essays.  
 - No secrets / PII.  
