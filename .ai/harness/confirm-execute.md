@@ -3,6 +3,7 @@
 For **non-trivial** changes (code, schema, deploy, infra):
 
 0. **Strategy** → `change-strategy.md`: account for prior fixes; choose A (additive) vs B; do not undo working behavior.  
+0b. **Line** → `line-continuity.md`: new work, any model, follows the existing visual/technical line (does not veto asked redesign).  
 1. **Propose** (≤12 lines): impact · scope · options A/B · what will not be done · which prior fix is preserved.  
 2. **Ask** for explicit confirmation (`OK` / `A` / `B`) unless SAFE trivial (typo, path, FAQ).  
 3. **Execute** only after confirmation (or SAFE trivial); do not expand scope “while here”.  

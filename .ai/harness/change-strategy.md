@@ -34,4 +34,5 @@ A “cleanup” or blind rewrite often **breaks** what was already fixed. Prefer
 ## Related
 - Confirm → `confirm-execute.md`
 - Safety → `safety-rails.md`
+- New requirement, any model → follow the line (`line-continuity.md`); this is not undoing *the craft*, not only the last fix.
 - Close → crystallize / self-improve (note *why not to touch X* when useful).

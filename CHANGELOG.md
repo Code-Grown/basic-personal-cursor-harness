@@ -9,6 +9,17 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.14] — 2026-08-26
+
+### Added
+- `line-continuity.md` — any model, new work follows the existing visual/technical line
+
+### Changed
+- model-routing, quality-bars, change-strategy, confirm-execute, bridges — picker does not reset craft
+- Operator path (README, AGENTS, FIRST_SESSION, plug-and-play) surfaces the rule so clones inherit it
+
+---
+
 ## [2.6.13] — 2026-08-19
 
 ### Changed

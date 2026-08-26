@@ -6,7 +6,7 @@ En cada iteración no trivial: **detectar tecnologías por evidencia** y **crist
 
 | Evidencia | Acción |
 |---|---|
-| `package.json` + nuxt/vue | skill frontend + **`vue-pug.md`** (Pug estricto) |
+| `package.json` + nuxt/vue | skill frontend + **`vue-pug.md`** (Pug estricto) + **`line-continuity.md`** |
 | `package.json` + next/react | skill `frontend-<stack>.md` (no Pug) |
 | `pyproject.toml` / `requirements.txt` + FastAPI/Django/Flask | skill `backend-python.md` (o stack concreto) |
 | `go.mod` | skill `go.md` |

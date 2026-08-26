@@ -26,6 +26,7 @@ Leer y obedecer:
 - `.ai/harness/ia-first.md` (feature / tour / chat IA)
 - `.ai/harness/gap-fill.md` (si dicen que falta o no existe)
 - `.ai/harness/vue-pug.md` (Vue/Nuxt: Pug estricto; HTML al tocar se migra de una)
+- `.ai/harness/line-continuity.md` (requerimiento nuevo, cualquier modelo: misma línea visual/técnica)
 
 Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/`, `skills/` y `audit/`.
 

@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.13 · patrón + anticipar visibles en arranque → push main
+Versión 2.6.14 · line-continuity (cualquier modelo, misma línea) → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 
@@ -11,7 +11,7 @@ Usuario no edita esto. Apps en `/projects/`. Agente mantiene `memory/` y `audit/
 .ai/
 ├── constitution/     regla maestra
 ├── protocols/        full | compact | ultra
-├── harness/          session-gate, safety-rails, read-budget, quality-bars, confirm-execute, change-strategy, context-discipline, ux-flow-first, ux-craft, ia-first, gap-fill, vue-pug, ai-product-models, close-versioning, repo-pointer, tech-skills, model-routing, crystallize, promote-harness, triggers, checks, rollback
+├── harness/          session-gate, safety-rails, read-budget, quality-bars, confirm-execute, change-strategy, line-continuity, context-discipline, ux-flow-first, ux-craft, ia-first, gap-fill, vue-pug, ai-product-models, close-versioning, repo-pointer, tech-skills, model-routing, crystallize, promote-harness, triggers, checks, rollback
 ├── agents/           planner · coder · reviewer · validator
 ├── memory/           mapa + ADRs + patterns + perfil (sin secretos)
 ├── skills/           confidentiality · trading-ml (opcional) · + las del proyecto

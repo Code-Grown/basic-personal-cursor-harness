@@ -18,4 +18,5 @@ Prefer **quality and understanding**. Forcing cheap models on Tasks often missed
 1. Do not downgrade to Composer for “savings” or routine work.  
 2. Do not spawn Task when one agent is enough.  
 3. Composer / other models only when the user asks **explicitly**.  
-4. Best outcome wins.
+4. Best outcome wins.  
+5. **Any model** (Auto included): new work follows the existing visual/technical line (`line-continuity.md`). The picker does not reset the craft.
