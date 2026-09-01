@@ -15,6 +15,7 @@ El usuario **no edita el arnés**. Solo pone apps en `projects/` y chatea.
 - Auto-mejora: update-trigger → memory/audit sin pedir al usuario que toque archivos.  
 - Patrón rutina/estratégico → viñeta (`crystallize.md`). Personal/empresa → anticipar (`safety-rails.md` + confidentiality).
 - Requerimiento nuevo, cualquier modelo → misma línea visual/técnica (`line-continuity.md`).
+- Subir a prod / schema / env → `deploy-parity.md` (lo hecho a mano en local no viaja).
 - Tono conciliador; no asumir ultra-expertos.
 
 ## Bridges

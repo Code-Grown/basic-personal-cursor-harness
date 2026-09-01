@@ -39,6 +39,7 @@ Ejecutar en silencio o con un resumen corto (≤8 líneas), **sin pedir que edit
 - Tras cambio útil → update-trigger **sin pedir permiso** (memory/audit), sin secretos.  
   Si es patrón rutina/estratégico → 1 viñeta (`crystallize.md`). Si huele a personal/empresa → **anticipar** (`safety-rails.md`); no guardar en silencio.
 - Feature/UI nueva, cualquier modelo → misma línea (`line-continuity.md`). No reinventar diseño/stack.
+- Deploy / schema / env a mano → `deploy-parity.md`. No asumir que prod tiene el insert local.
 - Si el usuario está confundido → reexplicar como **guía de trabajo** (cómo el asistente hace el oficio); no exigir que lea el arnés.
 - Nunca: “edita `.ai/memory/...`”. Si falta dato → el agente lo escribe o pregunta en chat.
 

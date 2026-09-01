@@ -12,7 +12,8 @@ Best-of genérico cristalizado para el template compartible.
 ## Require explicit OK
 - Destructive git (`push --force` to shared, `reset --hard`, `clean -fdx`).
 - Destructive data (`DROP`/`TRUNCATE`, mass deletes, breaking migrations).
-- Prod deploy when user asked local-only; open firewall / wipe volumes / blind DNS-SSL changes.
+- Prod deploy when user asked local-only; open firewall / wipe volumes / blind DNS-SSL changes.  
+- Ship to prod without listing hand inserts/env/migrations that exist only locally (`deploy-parity.md`); prod without a minimal backup of what will be touched.
 - Disabling auth/TLS “just to test” outside a clearly isolated local sandbox.
 
 ## Sensitive data

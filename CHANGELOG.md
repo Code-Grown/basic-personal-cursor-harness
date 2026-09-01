@@ -9,6 +9,17 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.15] — 2026-08-31
+
+### Added
+- `deploy-parity.md` — local is not prod; evaluate hand inserts/env/files the deploy will not see
+
+### Changed
+- Assumed-obvious things get a one-bullet evaluation (`crystallize`), not a new essay
+- confirm-execute, quality-bars, safety-rails, close-versioning, operator path
+
+---
+
 ## [2.6.14] — 2026-08-26
 
 ### Added

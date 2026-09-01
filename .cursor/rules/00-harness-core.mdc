@@ -27,6 +27,7 @@ Leer y obedecer:
 - `.ai/harness/gap-fill.md` (si dicen que falta o no existe)
 - `.ai/harness/vue-pug.md` (Vue/Nuxt: Pug estricto; HTML al tocar se migra de una)
 - `.ai/harness/line-continuity.md` (requerimiento nuevo, cualquier modelo: misma línea visual/técnica)
+- `.ai/harness/deploy-parity.md` (deploy / schema / env a mano: local no es prod)
 
 Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/`, `skills/` y `audit/`.
 

@@ -17,6 +17,7 @@ Arranca el bootstrap del arnés y propón antes de editar.
 5. Tras tu OK, implementa y guarda aprendizajes.  
 6. Si algo es rutina (“siempre / en todos”) → una viñeta de patrón. Si es dato tuyo o de la empresa → te **anticipa** qué guardaría y espera OK.
 7. Feature nueva: sigue la línea visual/técnica que ya tiene la app (cualquier modelo). Rediseño solo si lo pides.
+8. Si vas a desplegar: el agente lista inserts/env/archivos que solo están en local. Prod no los inventa.
 
 ## Mensaje 2 (cuando apruebes)
 ```

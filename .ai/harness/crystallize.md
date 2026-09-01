@@ -31,6 +31,10 @@ Operator-kept chat logs = **their** backup; do not ingest whole. If they ask “
 
 If the bullet would include **personal or company** data → `safety-rails.md` (anticipate). Do not write silently.
 
+## Assumed obvious
+If something “should already happen” (seed has it, compose has the table, prod has the insert) and **nobody checked** → evaluate this turn.  
+A clean clone/deploy would fail → **one bullet** (skill or `deploy-parity.md`), not an essay. One-off that will not repeat → do not harness.
+
 ## How
 - 1–5 bullets or one index row — no essays.  
 - No secrets / PII.  

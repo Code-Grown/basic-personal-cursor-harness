@@ -26,4 +26,4 @@ In **each** app repo with code changes:
 - If unsure which env branch to converge to → ask.
 
 ## Close order
-Verify → crystallize if needed → **commit** → ask push **only if remote exists** → summarize local vs remote.
+Verify → crystallize if needed → **commit** → if shipping, `deploy-parity.md` → ask push **only if remote exists** → summarize local vs remote.

@@ -13,3 +13,4 @@ For **non-trivial** changes (code, schema, deploy, infra):
 SAFE trivial may proceed; still crystallize if there is a lasting lesson.
 
 6. **Gap-fill** → `gap-fill.md`: if they say something is missing, do not stop at “it isn’t there”. SAFE → create now. New piece → short A/B and build (unless BREAKING/prod).
+7. **Deploy / schema / env** → `deploy-parity.md`: list what exists only locally (hand inserts, seed, `.env`); do not assume prod has it.

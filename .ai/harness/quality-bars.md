@@ -6,7 +6,7 @@ Portable bars. Product-specific tours/AWS envs live in private hubs — here onl
 1. **Guided help** — if the app has tour/onboarding/docs-in-UI, update them in the same iteration as the feature; if missing for a new operator flow, add a minimal guide.  
 2. **Security first** — server-side checks; least privilege; see `safety-rails.md`.  
 3. **Secrets configurable** — env/config UI only; never hardcode; never echo secrets.  
-4. **Stability** — backend-first when cross-cutting; idempotent migrations; smoke what you touch.  
+4. **Stability** — backend-first when cross-cutting; idempotent migrations; smoke what you touch. Local → prod: `deploy-parity.md` (hand inserts/env do not travel).  
 5. **Consistent UI** — reuse existing components/tokens; no new design system in one PR.  
    - **AI chat**: Enter sends · Shift+Enter newline (not Cmd/Ctrl+Enter).
 6. **Use the stack well** — prefer established patterns over new deps.  
@@ -17,6 +17,8 @@ Portable bars. Product-specific tours/AWS envs live in private hubs — here onl
 8d. **Gap-fill** — if they say it is missing / does not exist: `gap-fill.md` (create a careful compensation).  
 8e. **Pug** — Vue/Nuxt: `vue-pug.md`. New templates in Pug; on touch, migrate HTML immediately.  
 8f. **Line continuity** — any model, new work follows the existing visual/technical line (`line-continuity.md`).  
+8g. **Assumed obvious** — evaluate; if a clean deploy would fail, one bullet (not a new module).  
+8h. **Deploy parity** — `deploy-parity.md` when shipping or touching schema/env.  
 9. **Confirm → execute → record** — `confirm-execute.md`.  
 10. **Change strategy** — evaluate A/B; do not undo prior fixes (`change-strategy.md`).  
 11. **Maintainable code** — small diffs; clear names; crystallize invariants. Routine/strategic pattern → same-turn bullet; personal/company data → anticipate first (`safety-rails`).  
