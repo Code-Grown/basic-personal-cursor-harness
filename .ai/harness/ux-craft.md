@@ -74,8 +74,26 @@ Same token on cards, panels, dialogs, menus, toasts. Apply when you touch; do no
 | **Label vs placeholder** | Label outside or persistent outlined. Placeholder ≠ title. Hint below. No collision. |
 | **Auth fields** | Login/register/etc.: **fixed** surface bg at rest and focus. Do not darken on blur. `on-surface` text. |
 | **Mobile tables** | Do not crush columns. Card-per-row **or** scroll + sticky first col + row actions. Compact, readable. |
+| **Help ?** | Non-obvious field/control: `?` icon next to the **label**. One precise sentence. See §5c. |
 
 Anti-pattern: `rounded-xl`/24px per card; snackbar without X; dialog buttons clipped at 320px; same text as label and placeholder; field goes dark when idle; wide data-table on a phone.
+
+## 5c. Help ? (short · accurate · precise)
+
+Fields, metrics, or actions the **label does not explain** get an in-situ `?`. Does not replace the tour or AI chat.
+
+**Done when:**
+1. Theme icon (`mdi-help-circle-outline` / Flutter outline). ~18px. Next to the label, not instead of it.  
+2. Hover **and** tap. Real `aria-label` (“What this means”).  
+3. Copy: **one idea**, 1–2 sentences. Real concept name. Product fact — if you don’t know, skip the `?`.  
+4. Reuse the app helper (`v-tooltip`, existing Help component). No new widget per screen.
+
+**Not:**
+- A `?` on every obvious field (Name, Email).  
+- A paragraph, lorem, harness jargon, “click to learn more”, invented facts.  
+- A replacement for the tour or page lead. Tour = first use; `?` = always, that concept.
+
+When you touch a non-obvious form/metric with no `?` → add it in the same iteration.
 
 ## 6. Voice on every AI chat
 Every AI composer has **voice input**. Reuse the app composable if it exists. If the browser lacks SpeechRecognition, the mic stays visible and explains the fallback. Enter sends · Shift+Enter newline.

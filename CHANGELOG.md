@@ -9,6 +9,16 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.16] — 2026-09-03
+
+### Added
+- `ux-craft` §5c — in-situ `?` help: one short, accurate, precise sentence on non-obvious fields
+
+### Changed
+- ux-flow-first bar 6 and quality-bars point at the same chrome (not a new module)
+
+---
+
 ## [2.6.15] — 2026-08-31
 
 ### Added

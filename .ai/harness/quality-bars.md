@@ -12,7 +12,7 @@ Portable bars. Product-specific tours/AWS envs live in private hubs — here onl
 6. **Use the stack well** — prefer established patterns over new deps.  
 7. **Intuitive + chat-friendly** — clear errors; short A/B proposals; `read-budget.md`.  
 8. **Flow-first UX** — on redesign / “less admin” / mobile usability: `ux-flow-first.md` (role home, pipelines, bridges; tour ≠ only map).  
-8b. **Craft** — UI / copy / AI surfaces: `ux-craft.md`. Working guide; global chrome (dismissible toasts, 8px radius, modal buttons inside the frame, labels vs placeholders, fixed auth fields, mobile tables); voice on AI chat.  
+8b. **Craft** — UI / copy / AI surfaces: `ux-craft.md`. Working guide; global chrome (toasts, 8px, modals, labels, auth, tables, **help ?** with one precise sentence); voice on AI chat.  
 8c. **IA-first** — `ia-first.md`: tours/learning persist as in-app chat context; optimize the working guide on every development.  
 8d. **Gap-fill** — if they say it is missing / does not exist: `gap-fill.md` (create a careful compensation).  
 8e. **Pug** — Vue/Nuxt: `vue-pug.md`. New templates in Pug; on touch, migrate HTML immediately.  

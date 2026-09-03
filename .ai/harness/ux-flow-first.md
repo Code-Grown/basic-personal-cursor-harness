@@ -19,7 +19,7 @@ Tours that only label buttons without showing the **job to finish**.
 3. **Pipeline / status** — related entities linked A→B→C with context.  
 4. **Progressive disclosure** — long forms in steps + summary; one primary action.  
 5. **Bridges** — “Continue in…”, “Related…”, empty states with CTA.  
-6. **In-situ help** — field-level tip; tour = first use or on demand.  
+6. **In-situ help** — `?` or tooltip on non-obvious fields (precise copy, `ux-craft` §5c); tour = first use, not the only map.  
 7. **Mobile ≠ admin clone** — task nav by role; less density; Material/Vuetify = base.
 
 ## Propose

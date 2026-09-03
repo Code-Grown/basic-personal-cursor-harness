@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.15 · deploy-parity (local ≠ prod) → push main
+Versión 2.6.16 · ayuda ? in-situ (puntual / certera) → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 

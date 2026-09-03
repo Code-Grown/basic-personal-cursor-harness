@@ -7,7 +7,7 @@ When the operator says something **does not exist**, is missing, or “should be
 ## What to create
 - UI gap → written empty state + CTA, or the control/screen they expected.  
 - Flow gap → “continue in…” bridge or a usable stub (not a mute 404).  
-- Guide gap → tour step / in-situ hint.  
+- Guide gap → tour step / in-situ `?` (`ux-craft` §5c).  
 - AI gap → chat entry or a real-name interpretation.  
 - Data gap → honest empty + how to load it; do not invent facts.
 
