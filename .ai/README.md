@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.16 · ayuda ? in-situ (puntual / certera) → push main
+Versión 2.6.17 · ayuda ? en todos los puentes → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 

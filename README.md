@@ -1,6 +1,6 @@
 # AI Harness Template — plug-and-play multi-IA
 
-**Versión:** `2.6.16` · [`VERSION`](VERSION) · [`CHANGELOG.md`](CHANGELOG.md) · [`VERSIONING.md`](VERSIONING.md)
+**Versión:** `2.6.17` · [`VERSION`](VERSION) · [`CHANGELOG.md`](CHANGELOG.md) · [`VERSIONING.md`](VERSIONING.md)
 
 Arnés para Cursor, Copilot, Claude, Gemini, Continue, Ollama y más.  
 **Los usuarios no editan el arnés.** Solo dejan su código y chatean.

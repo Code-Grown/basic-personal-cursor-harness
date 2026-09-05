@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.17] — 2026-09-05
+
+### Changed
+- Bridge lists in-situ `?` help so every clone loads the same chrome as the private hubs
+
+---
+
 ## [2.6.16] — 2026-09-03
 
 ### Added
