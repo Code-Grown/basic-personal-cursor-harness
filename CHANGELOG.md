@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.18] — 2026-09-22
+
+### Changed
+- `model-routing` — do not pin a model version; chat is the current Grok in the picker; Tasks inherit
+
+---
+
 ## [2.6.17] — 2026-09-05
 
 ### Changed
