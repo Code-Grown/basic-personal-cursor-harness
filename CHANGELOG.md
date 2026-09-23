@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.19] — 2026-09-23
+
+### Changed
+- Always-on bridge: reuse the framework or product component and keep the same proportion (radius 8, padding 16, equal button height). No new widget per screen. Detail stays in `ux-craft`.
+
+---
+
 ## [2.6.18] — 2026-09-22
 
 ### Changed
