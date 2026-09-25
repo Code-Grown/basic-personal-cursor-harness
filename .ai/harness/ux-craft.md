@@ -36,6 +36,8 @@ Each AI box / bubble / summary:
 - Correct and domain-specific. If you don’t know, don’t pad.  
 - JSON dumps are secondary (pretty fence), **never** the main explanation.
 
+An explanation (welcome, empty state, tour, AI box, landing) says what this is, why it matters here, and what to do now. In the voice of someone who knows the product. Not a telegram. Not a slogan (“unlock”, “discover”, “next level”, “robust”, “seamless”). If it sounds like an ad or a manual, rewrite it.
+
 ## 3. AI boxes, margins, chrome
 
 Reuse the app’s renderer and tokens. No new design system.

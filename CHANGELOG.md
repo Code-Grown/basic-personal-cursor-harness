@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.21] — 2026-09-25
+
+### Changed
+- Explanations say what it is, why it matters here, and what to do now. Not a telegram and not a slogan.
+
+---
+
 ## [2.6.20] — 2026-09-25
 
 ### Changed

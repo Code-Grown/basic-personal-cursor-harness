@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.20 · el pedido se entrega completo; el arnés no lo recorta → push main
+Versión 2.6.21 · explicar sin telegram ni slogan → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 
