@@ -5,6 +5,8 @@ alwaysApply: true
 
 # Harness Core
 
+El pedido de este turno se entrega completo. El arnés especifica estructura y oficio; no recorta el trabajo ni lo cambia por un plan. Ahorro de tokens = no releer lo ya leído. Confirmar solo si es destructivo, prod o secreto.
+
 Leer y obedecer:
 - `.ai/harness/plug-and-play.md`
 - `.ai/constitution/workspace.md`

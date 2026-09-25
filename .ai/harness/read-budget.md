@@ -11,7 +11,7 @@ Be effective without over-reading.
 ## Limits
 - Do not re-read harness docs already in the thread.
 - No speculative searches when the path is known.
-- Prefer indexes and short diffs over full rewrites.
+- The budget is for **reading**, not for the task. A short diff only if the ask is small. Deliver the whole request.
 - Mentor / multi-agent modes: only when asked or clearly needed.
 
 ## Smell of over-reading

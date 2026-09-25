@@ -20,7 +20,7 @@ A “cleanup” or blind rewrite often **breaks** what was already fixed. Prefer
 5. **Propose** via `confirm-execute.md` including: *what will not change* and *which prior fix is preserved*.
 
 ## Anti-regression rules
-- Prefer **additive** edits and small diffs. Do not rewrite whole files for style.
+- Prefer **additive** edits when they are enough. The full request wins: a small diff that leaves the feature half-done does not count. Do not rewrite whole files for style.
 - Do not remove guards, branches, flags, tests, or fix comments “because unused” without evidence.
 - Do not “unify/simplify” converged patterns without reading the decision/skill.
 - If the ask conflicts with a prior fix/ADR → **surface the conflict**; do not silently overwrite.

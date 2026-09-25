@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.20] — 2026-09-25
+
+### Changed
+- The harness specifies structure and craft. It does not shrink the request. Token savings apply to re-reading, not to the work. Confirm only for destructive, production, or secrets.
+
+---
+
 ## [2.6.19] — 2026-09-23
 
 ### Changed
