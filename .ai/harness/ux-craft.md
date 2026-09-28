@@ -36,7 +36,26 @@ Each AI box / bubble / summary:
 - Correct and domain-specific. If you don’t know, don’t pad.  
 - JSON dumps are secondary (pretty fence), **never** the main explanation.
 
-An explanation (welcome, empty state, tour, AI box, landing) says what this is, why it matters here, and what to do now. In the voice of someone who knows the product. Not a telegram. Not a slogan (“unlock”, “discover”, “next level”, “robust”, “seamless”). If it sounds like an ad or a manual, rewrite it.
+An explanation (welcome, empty state, tour, AI box, landing, portal) says what this is, why it matters here, and what to do now. In the voice of someone who knows the product. Not a telegram. Not a slogan (“unlock”, “discover”, “next level”, “robust”, “seamless”). If it sounds like an ad or a manual, rewrite it.
+
+## 2b. Conversational copy
+
+Write as a person guiding someone through the product.
+
+- Complete sentences. No bare labels (“Step 2.”, “Pending.”) without saying of what.
+- Close, clear tone. One idea per sentence.
+- Each step: an action verb plus what the person gets from it.
+- The button names the action. Not a mute “OK” or “Next” with no context.
+
+## 2c. The step shows, and says what is missing
+
+On the landing and inside the flow, the current step’s button gets a short motion (enter, emphasis when it becomes active, the next one inviting). It marks where you are and what follows. Not decoration on every control. Honor `prefers-reduced-motion`.
+
+A pending step is not a disabled button with no reason. Next to it, one sentence says what is missing. Several gaps become a short list. Update that sentence in the same change.
+
+## 2d. Elegance
+
+Rough work is not done: clipped text, a dead button with no reason, uneven gaps, two radii in one row, a step that does not say how to continue. If it feels unfinished when used, rewrite or adjust it before calling it ready.
 
 ## 3. AI boxes, margins, chrome
 

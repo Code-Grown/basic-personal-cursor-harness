@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.22] — 2026-09-28
+
+### Changed
+- Landing and portal copy is a complete sentence with an action and its benefit. A pending step says what is missing. The step button marks continuity. Rough UI is not done.
+
+---
+
 ## [2.6.21] — 2026-09-25
 
 ### Changed
