@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.23] — 2026-09-28
+
+### Changed
+- The open chat keeps operating. A vignette in the repo harness feeds the next chat. Do not recompact the thread or ask for a fresh chat to reset.
+
+---
+
 ## [2.6.22] — 2026-09-28
 
 ### Changed

@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.22 · el paso pendiente dice qué falta; el texto guía → push main
+Versión 2.6.23 · el chat abierto sigue; la viñeta alimenta al siguiente → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 

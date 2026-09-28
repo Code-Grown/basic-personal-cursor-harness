@@ -10,7 +10,9 @@ Use **clear, specific harness rules**; free what did not help.
 | Crystallize **what worked** when the requirement/topic changes | Keep the whole thread “just in case” |
 | Drop noise and failed detours | Treat chat history as working memory |
 
-Chat is ephemeral. Continuity lives on disk (`crystallize.md`).
+The open chat **continues**. A long window (up to 500k) is for operating, not a reason to start another chat. Do not recompact the thread or ask for a fresh chat to “reset”.
+
+Continuity across chats lives on disk (`crystallize.md`): when a topic closes, one vignette in this repo’s `HARNESS.md` or skill. The next chat reads that. It does not read the previous transcript.
 
 ## When to crystallize (required)
 1. **Requirement or topic change** (even in the same chat).  
