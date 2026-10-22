@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.24] — 2026-10-22
+
+### Changed
+- Copy is direct and sober. Slogans, stock metaphors, motivational closings, and “not X, but Y” are out. UI pending-step rules do not apply to infrastructure.
+
+---
+
 ## [2.6.23] — 2026-09-28
 
 ### Changed
