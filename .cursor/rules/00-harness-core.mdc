@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Harness Core
 
-El pedido de este turno se entrega completo. El arnés especifica estructura y oficio; no recorta el trabajo ni lo cambia por un plan. Ahorro de tokens = no releer lo ya leído. Confirmar solo si es destructivo, prod o secreto. Cierra el recorrido en el mismo turno: los dos lados de la conexión, el componente que la librería del front ya trae, y un camino que una persona puede terminar (vacío, error, qué falta). El paso de al lado necesario para eso entra en el cambio. No abras otro producto. Lo nuevo sigue el patrón y la librería que el repo ya tiene. Si cabe en esa línea, se hace sin preguntar. Si se sale, se pregunta antes.
+El pedido de este turno se entrega completo. El arnés especifica estructura y oficio; no recorta el trabajo ni lo cambia por un plan. Ahorro de tokens = no releer lo ya leído. Confirmar solo si es destructivo, prod o secreto. Cierra el recorrido en el mismo turno: los dos lados de la conexión, el componente que la librería del front ya trae, y un camino que una persona puede terminar (vacío, error, qué falta). El paso de al lado necesario para eso entra en el cambio. No abras otro producto. Antes de escribir algo nuevo, usa el componente, el módulo y el estilo que el repo ya tiene. Si el cambio repite eso, hazlo. Si trae un patrón que el repo no usa, para y pregunta.
 
 Leer y obedecer:
 - `.ai/harness/plug-and-play.md`

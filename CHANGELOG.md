@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.27] — 2026-10-23
+
+### Changed
+- The always-on rule is an action: use the component, module, and style the repo already has. Do it if the change repeats that. Stop and ask if it brings a new pattern.
+
+---
+
 ## [2.6.26] — 2026-10-23
 
 ### Changed
