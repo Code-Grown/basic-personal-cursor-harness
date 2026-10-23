@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.28] — 2026-10-23
+
+### Changed
+- Obligatory close: the connection is checked end to end, the library’s existing behavior is used, and a person can finish the path. The first draft that compiles is not the delivery.
+
+---
+
 ## [2.6.27] — 2026-10-23
 
 ### Changed
