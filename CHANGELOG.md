@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.25] — 2026-10-23
+
+### Changed
+- Finish the path in the same turn: both sides of the connection, the frontend library’s existing component, and the adjacent step a person needs. A longer turn is acceptable.
+
+---
+
 ## [2.6.24] — 2026-10-22
 
 ### Changed
