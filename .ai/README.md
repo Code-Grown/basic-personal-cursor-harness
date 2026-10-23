@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.28 · obligación: conexión probada y camino terminado → push main
+Versión 2.6.29 · el agente revisa y corrige antes de entregar → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 

@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.29] — 2026-10-23
+
+### Changed
+- Before calling the turn done, the agent checks the connection, the existing library, and the finished path, and fixes what fails in the same turn.
+
+---
+
 ## [2.6.28] — 2026-10-23
 
 ### Changed
