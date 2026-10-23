@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.30] — 2026-10-23
+
+### Changed
+- If the operator is tired of repeating a complaint, the previous turn failed. Fix it in this turn. Do not ask them to rephrase.
+
+---
+
 ## [2.6.29] — 2026-10-23
 
 ### Changed

@@ -1,6 +1,6 @@
 # `.ai/` — Gobernanza portable multi-IA (genérica)
 
-Versión 2.6.29 · el agente revisa y corrige antes de entregar → push main
+Versión 2.6.30 · si el reclamo se repite, se corrige sin pedir otra explicación → push main
 
 (SemVer: `/VERSION` · historial: `/CHANGELOG.md`)
 

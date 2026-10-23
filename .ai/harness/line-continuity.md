@@ -11,7 +11,7 @@ Does not replace `change-strategy.md` (don’t undo fixes) or `ux-flow-first.md`
 3. No new design system, no “model taste”, no throwaway HTML, no default Material dump.  
 4. Extend the neighbor pattern (same card, radius, toast, form, table). If none → hub/core bars, not the LLM default.  
 5. If the ask fights the line → **say so** and propose A (keep line) vs B (change it, `ux-flow-first` if UX). No silent pivot.  
-6. Inside what the repo already does, continue. Reuse the library, close the other side, and finish the missing step without waiting. Stop and ask only when the change brings a pattern the repo does not use. The connection must be checked and the path finished. The first draft that compiles is not the delivery. Before closing, the agent checks those points and fixes what fails. It does not leave that finding for the operator.
+6. Inside what the repo already does, continue. Reuse the library, close the other side, and finish the missing step without waiting. Stop and ask only when the change brings a pattern the repo does not use. The connection must be checked and the path finished. The first draft that compiles is not the delivery. Before closing, the agent checks those points and fixes what fails. It does not leave that finding for the operator. If the operator says they are tired of it, that they already explained it, or repeats the complaint, the previous turn failed: fix it in this turn without asking them to rephrase.
 
 ## What this does not break
 - **Asked** redesign → `ux-flow-first` + confirm; this file does not veto it.  
