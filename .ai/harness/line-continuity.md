@@ -10,7 +10,8 @@ Does not replace `change-strategy.md` (don’t undo fixes) or `ux-flow-first.md`
 2. Same family: Pug on Vue/Nuxt (`vue-pug.md`) · `ux-craft` chrome · quality bars of this workspace.  
 3. No new design system, no “model taste”, no throwaway HTML, no default Material dump.  
 4. Extend the neighbor pattern (same card, radius, toast, form, table). If none → hub/core bars, not the LLM default.  
-5. If the ask fights the line → **say so** and propose A (keep line) vs B (change it, `ux-flow-first` if UX). No silent pivot.
+5. If the ask fights the line → **say so** and propose A (keep line) vs B (change it, `ux-flow-first` if UX). No silent pivot.  
+6. Inside the line, continue. Initiative (reuse the library, close the other side, the missing step) does not wait for permission. Ask only when the change leaves that line.
 
 ## What this does not break
 - **Asked** redesign → `ux-flow-first` + confirm; this file does not veto it.  

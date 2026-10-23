@@ -9,6 +9,13 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.26] — 2026-10-23
+
+### Changed
+- New work stays on the repo’s existing pattern and libraries. Continue without asking. Ask only when the change leaves that line.
+
+---
+
 ## [2.6.25] — 2026-10-23
 
 ### Changed
