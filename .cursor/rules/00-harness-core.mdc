@@ -33,6 +33,16 @@ Leer y obedecer:
 - `.ai/harness/line-continuity.md` (requerimiento nuevo, cualquier modelo: misma línea visual/técnica)
 - `.ai/harness/deploy-parity.md` (deploy / schema / env a mano: local no es prod)
 
+## Estándares mínimos
+
+Piso común del hub. Esta regla solo apunta; el texto vive en los archivos. En un cambio de comportamiento o de UI, se leen antes de construir.
+
+- `estandares/sdd-minimo.md`
+- `estandares/piso-frontend.md`
+- `plantillas/spec-app.md`
+- `plantillas/pitch.md`
+- `plantillas/ci-estandares.yml` (ejemplo; no corre en este repo)
+
 Usuario no edita el arnés. Apps en `projects/`. Agente escribe `memory/`, `skills/` y `audit/`.
 
 Ciclo: bootstrap → descubrir (tech) → evaluar estrategia → proponer → confirmar → ejecutar → comprender → persistir (crystallize + skills).  

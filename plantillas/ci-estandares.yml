@@ -1,0 +1,116 @@
+# Ejemplo para copiar a .github/workflows/ de una app.
+# En este hub no corre: GitHub solo ejecuta lo que está bajo .github/workflows/.
+# Lint, pruebas, build y la línea «Pitch:» bloquean.
+# Axe y Lighthouse CI usan continue-on-error: avisan y no bloquean.
+# No los marques como required en la protección de la rama: si no, el aviso vuelve a bloquear.
+# Ajusta node-version y dist al build de la app. No pongas secretos en este archivo.
+# INP no se afirma aquí: un Lighthouse de laboratorio no lo mide sin interacción.
+# El pitch lo pide cuando el cambio puede mover LCP, CLS o INP.
+
+name: estandares
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  calidad:
+    name: lint, pruebas y build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+
+  axe:
+    name: axe (aviso)
+    # ubuntu-latest trae Chrome; @axe-core/cli lo usa vía chromedriver.
+    runs-on: ubuntu-latest
+    needs: calidad
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: axe sobre el sitio estático
+        run: |
+          npx --yes serve@14.2.8 dist -l tcp://127.0.0.1:4173 &
+          ok=0
+          for _ in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:4173 >/dev/null; then
+              ok=1
+              break
+            fi
+            sleep 1
+          done
+          test "$ok" -eq 1
+          npx --yes @axe-core/cli@4.14.0 http://127.0.0.1:4173 --tags wcag2a,wcag2aa,wcag22aa --exit
+
+  lighthouse:
+    name: Lighthouse CI (aviso)
+    runs-on: ubuntu-latest
+    needs: calidad
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Lighthouse CI en móvil
+        run: |
+          cat > lighthouserc.json <<'EOF'
+          {
+            "ci": {
+              "collect": {
+                "staticDistDir": "./dist",
+                "numberOfRuns": 1
+              },
+              "assert": {
+                "assertions": {
+                  "categories:performance": ["error", {"minScore": 0.9}],
+                  "categories:accessibility": ["error", {"minScore": 0.9}],
+                  "largest-contentful-paint": ["error", {"maxNumericValue": 2500}],
+                  "cumulative-layout-shift": ["error", {"maxNumericValue": 0.1}]
+                }
+              },
+              "upload": {
+                "target": "filesystem",
+                "outputDir": ".lighthouseci"
+              }
+            }
+          }
+          EOF
+          npx --yes @lhci/cli@0.16.1 autorun
+
+  pitch:
+    name: pitch enlazado
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: El cuerpo del PR incluye una línea Pitch
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          if printf '%s\n' "${PR_BODY:-}" | grep -q '^Pitch:'; then
+            echo 'Pitch enlazado.'
+            exit 0
+          fi
+          echo 'El cuerpo del PR no tiene una línea que empiece por «Pitch:».'
+          exit 1

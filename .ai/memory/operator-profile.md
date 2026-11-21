@@ -1,7 +1,7 @@
 # Operator Profile — mantenido por el agente
 
 **Estado**: AUTO · el usuario no rellena esto a mano  
-**Última actualización**: _(agente)_
+**Última actualización**: 2026-11-21
 
 | Campo | Valor |
 |---|---|
@@ -11,7 +11,7 @@
 | Stack | ver `workspace.md` (apps en `projects/`) |
 | Restricción riesgo | asumir **solo local** hasta que diga lo contrario |
 | Confidencial | keys, tokens, PII (mínimo) |
-| Idioma | el del chat |
+| Idioma | español (chat de esta sesión) |
 
 ## Defaults plug-and-play
 - No bloquear por perfil incompleto.
