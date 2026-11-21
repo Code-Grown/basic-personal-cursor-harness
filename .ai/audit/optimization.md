@@ -10,3 +10,4 @@ Formato: `YYYY-MM-DD · síntoma · ajuste · resultado`
 | 2026-07-20 | Faltaba tono humano + discovery + pack trading accesible | v2.1: tono conciliador, discovery.md, trading-ml opcional sin asumir expertos | OK |
 | 2026-07-20 | Confusión: ¿project-template es runtime? | Rename → docs/getting-started + aclaración no-detect | 2.1.1 |
 | 2026-07-20 | Usuarios no editarán el arnés; pedían autonomía | Plug-and-play: projects/ + bootstrap + memory agente | 2.2.0 |
+| 2026-11-21 | Cada repo trae su piso y no hay spec mínima común | Archivos en `estandares/` y `plantillas/`; la regla core solo apunta; CI de ejemplo inactivo | 2.6.31 |

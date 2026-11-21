@@ -1,13 +1,13 @@
 # Workspace Map — mantenido por el agente (plug-and-play)
 
-**Actualizado**: _(el agente rellena)_  
+**Actualizado**: 2026-11-21  
 **Modo**: plug-and-play · código usuario en `projects/`  
 **Advertencia**: sin secretos ni IDs reales.
 
 ## Apps detectadas en `projects/`
 | App (carpeta) | Stack inferido | Rol | Notas |
 |---|---|---|---|
-| _(vacío hasta bootstrap)_ | | | |
+| _(ninguna)_ | — | — | `projects/` solo tiene README y `.gitkeep`. Este repo es el hub del arnés. |
 
 ## Flujos (alto nivel)
 ```

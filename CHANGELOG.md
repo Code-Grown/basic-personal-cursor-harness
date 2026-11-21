@@ -9,6 +9,19 @@ Canónico: archivo `VERSION`.
 
 ---
 
+## [2.6.31] — 2026-11-21
+
+### Added
+- `estandares/sdd-minimo.md`: spec liviana. El pitch es la spec; cada app tiene spec viva; spec larga solo si el cambio es irreversible; el piso se exige en CI.
+- `estandares/piso-frontend.md`: piso frontend común del hub.
+- `plantillas/spec-app.md`, `plantillas/pitch.md` y `plantillas/ci-estandares.yml` (ejemplo; no activo en este repo).
+
+### Changed
+- `.cursor/rules/00-harness-core.mdc`: sección «Estándares mínimos» que apunta a esos archivos.
+- Línea de versión en README, `.ai/README.md` y la constitución.
+
+---
+
 ## [2.6.30] — 2026-10-23
 
 ### Changed
